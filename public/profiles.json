@@ -1,0 +1,4625 @@
+[
+  {
+    "id": 1,
+    "nome": "Ana Silva",
+    "foto": "./images/foto1.jpg",
+    "cargo": "Product Manager RH",
+    "resumo": "Profissional experiente em RH com foco em inovação e tecnologia. Especialista em Python e Ruby.",
+    "localizacao": "Fortaleza/CE",
+    "area": "RH",
+    "habilidadesTecnicas": [
+      "Python",
+      "Ruby",
+      "MySQL",
+      "Flutter",
+      "Java"
+    ],
+    "softSkills": [
+      "Resolução de problemas",
+      "Liderança",
+      "Adaptabilidade",
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "cargo": "Product Manager Sênior",
+        "inicio": "2018-12",
+        "fim": null,
+        "descricao": "Responsável por rh e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 2",
+        "cargo": "Product Manager Pleno",
+        "inicio": "2019-12",
+        "fim": "2020-09",
+        "descricao": "Responsável por rh e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 3",
+        "cargo": "Product Manager Pleno",
+        "inicio": "2020-05",
+        "fim": "2021-09",
+        "descricao": "Responsável por rh e desenvolvimento de soluções inovadoras."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "Insper",
+        "ano": 2013
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 1",
+        "link": "https://projeto1-1.com",
+        "descricao": "Projeto focado em Python e Ruby."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Python 1",
+      "Certificação RH 1"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Português",
+        "nivel": "Nativo"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "IA",
+      "Agile",
+      "Inovação"
+    ]
+  },
+  {
+    "id": 2,
+    "nome": "Bruno Santos",
+    "foto": "./images/foto2.jpg",
+    "cargo": "Coordenador Marketing",
+    "resumo": "Profissional experiente em Marketing com foco em inovação e tecnologia. Especialista em Ruby e GCP.",
+    "localizacao": "Curitiba/PR",
+    "area": "Marketing",
+    "habilidadesTecnicas": [
+      "Ruby",
+      "GCP",
+      "Spring Boot",
+      "Python",
+      "Next.js",
+      "Data Science",
+      "REST API"
+    ],
+    "softSkills": [
+      "Organização",
+      "Pensamento crítico",
+      "Liderança",
+      "Trabalho em equipe"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "cargo": "Coordenador Sênior",
+        "inicio": "2018-11",
+        "fim": null,
+        "descricao": "Responsável por marketing e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 2",
+        "cargo": "Coordenador Pleno",
+        "inicio": "2019-01",
+        "fim": "2020-07",
+        "descricao": "Responsável por marketing e desenvolvimento de soluções inovadoras."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Software",
+        "instituicao": "USP",
+        "ano": 2018
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [
+      "Certificação Ruby 2",
+      "Certificação Marketing 2"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Português",
+        "nivel": "Nativo"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Fluente"
+      }
+    ],
+    "areaInteresses": [
+      "Mobile",
+      "Empreendedorismo",
+      "IA"
+    ]
+  },
+  {
+    "id": 3,
+    "nome": "Carlos Oliveira",
+    "foto": "./images/foto3.jpg",
+    "cargo": "Gerente Design",
+    "resumo": "Profissional experiente em Design com foco em inovação e tecnologia. Especialista em MySQL e GCP.",
+    "localizacao": "Porto Alegre/RS",
+    "area": "Design",
+    "habilidadesTecnicas": [
+      "MySQL",
+      "GCP",
+      "React",
+      "Go",
+      "Data Science"
+    ],
+    "softSkills": [
+      "Proatividade",
+      "Comunicação",
+      "Empatia",
+      "Criatividade",
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "cargo": "Gerente Sênior",
+        "inicio": "2018-10",
+        "fim": null,
+        "descricao": "Responsável por design e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 2",
+        "cargo": "Gerente Pleno",
+        "inicio": "2019-12",
+        "fim": "2020-01",
+        "descricao": "Responsável por design e desenvolvimento de soluções inovadoras."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "FGV",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 1",
+        "link": "https://projeto3-1.com",
+        "descricao": "Projeto focado em MySQL e GCP."
+      }
+    ],
+    "certificacoes": [
+      "Certificação MySQL 3",
+      "Certificação Design 3"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Português",
+        "nivel": "Nativo"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Fluente"
+      }
+    ],
+    "areaInteresses": [
+      "Sustentabilidade",
+      "IA",
+      "Cloud Computing"
+    ]
+  },
+  {
+    "id": 4,
+    "nome": "Daniela Costa",
+    "foto": "./images/foto4.jpg",
+    "cargo": "Analista Saúde",
+    "resumo": "Profissional experiente em Saúde com foco em inovação e tecnologia. Especialista em Machine Learning e Vue.js.",
+    "localizacao": "Goiânia/GO",
+    "area": "Saúde",
+    "habilidadesTecnicas": [
+      "Machine Learning",
+      "Vue.js",
+      "React Native",
+      "Python",
+      "TypeScript",
+      "Node.js",
+      "Docker"
+    ],
+    "softSkills": [
+      "Adaptabilidade",
+      "Resolução de problemas",
+      "Empatia",
+      "Proatividade",
+      "Criatividade",
+      "Pensamento crítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "cargo": "Analista Sênior",
+        "inicio": "2018-09",
+        "fim": null,
+        "descricao": "Responsável por saúde e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 2",
+        "cargo": "Analista Pleno",
+        "inicio": "2019-03",
+        "fim": "2020-05",
+        "descricao": "Responsável por saúde e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 3",
+        "cargo": "Analista Pleno",
+        "inicio": "2020-03",
+        "fim": "2021-06",
+        "descricao": "Responsável por saúde e desenvolvimento de soluções inovadoras."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design",
+        "instituicao": "PUC",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 1",
+        "link": "https://projeto4-1.com",
+        "descricao": "Projeto focado em Machine Learning e Vue.js."
+      },
+      {
+        "titulo": "Projeto 2",
+        "link": "https://projeto4-2.com",
+        "descricao": "Projeto focado em Machine Learning e Vue.js."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Machine Learning 4",
+      "Certificação Saúde 4"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Português",
+        "nivel": "Nativo"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Básico"
+      }
+    ],
+    "areaInteresses": [
+      "IA",
+      "Agile",
+      "Transformação Digital"
+    ]
+  },
+  {
+    "id": 5,
+    "nome": "Eduardo Lima",
+    "foto": "./images/foto5.jpg",
+    "cargo": "Scrum Master Finanças",
+    "resumo": "Profissional experiente em Finanças com foco em inovação e tecnologia. Especialista em IoT e Data Science.",
+    "localizacao": "Campinas/SP",
+    "area": "Finanças",
+    "habilidadesTecnicas": [
+      "IoT",
+      "Data Science",
+      "Azure",
+      "MongoDB",
+      "PostgreSQL",
+      "Redis",
+      "Swift"
+    ],
+    "softSkills": [
+      "Adaptabilidade",
+      "Liderança",
+      "Criatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "cargo": "Scrum Master Sênior",
+        "inicio": "2018-09",
+        "fim": null,
+        "descricao": "Responsável por finanças e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 2",
+        "cargo": "Scrum Master Pleno",
+        "inicio": "2019-12",
+        "fim": "2020-10",
+        "descricao": "Responsável por finanças e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 3",
+        "cargo": "Scrum Master Pleno",
+        "inicio": "2020-06",
+        "fim": "2021-12",
+        "descricao": "Responsável por finanças e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 4",
+        "cargo": "Scrum Master Pleno",
+        "inicio": "2021-04",
+        "fim": "2022-05",
+        "descricao": "Responsável por finanças e desenvolvimento de soluções inovadoras."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "USP",
+        "ano": 2022
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 1",
+        "link": "https://projeto5-1.com",
+        "descricao": "Projeto focado em IoT e Data Science."
+      },
+      {
+        "titulo": "Projeto 2",
+        "link": "https://projeto5-2.com",
+        "descricao": "Projeto focado em IoT e Data Science."
+      }
+    ],
+    "certificacoes": [
+      "Certificação IoT 5",
+      "Certificação Finanças 5"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Português",
+        "nivel": "Nativo"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Agile",
+      "Sustentabilidade"
+    ]
+  },
+  {
+    "id": 6,
+    "nome": "Fernanda Alves",
+    "foto": "./images/foto6.jpg",
+    "cargo": "Consultor Negócios",
+    "resumo": "Profissional experiente em Negócios com foco em inovação e tecnologia. Especialista em Flutter e Swift.",
+    "localizacao": "Fortaleza/CE",
+    "area": "Negócios",
+    "habilidadesTecnicas": [
+      "Flutter",
+      "Swift",
+      "Redis",
+      "Next.js"
+    ],
+    "softSkills": [
+      "Pensamento crítico",
+      "Liderança",
+      "Comunicação",
+      "Resolução de problemas"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "cargo": "Consultor Sênior",
+        "inicio": "2018-04",
+        "fim": null,
+        "descricao": "Responsável por negócios e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 2",
+        "cargo": "Consultor Pleno",
+        "inicio": "2019-04",
+        "fim": "2020-01",
+        "descricao": "Responsável por negócios e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 3",
+        "cargo": "Consultor Pleno",
+        "inicio": "2020-01",
+        "fim": "2021-03",
+        "descricao": "Responsável por negócios e desenvolvimento de soluções inovadoras."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "PUC",
+        "ano": 2015
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 1",
+        "link": "https://projeto6-1.com",
+        "descricao": "Projeto focado em Flutter e Swift."
+      },
+      {
+        "titulo": "Projeto 2",
+        "link": "https://projeto6-2.com",
+        "descricao": "Projeto focado em Flutter e Swift."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Flutter 6",
+      "Certificação Negócios 6"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Português",
+        "nivel": "Nativo"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Empreendedorismo"
+    ]
+  },
+  {
+    "id": 7,
+    "nome": "Gabriel Pereira",
+    "foto": "./images/foto7.jpg",
+    "cargo": "Tech Lead TI",
+    "resumo": "Profissional experiente em TI com foco em inovação e tecnologia. Especialista em C# e REST API.",
+    "localizacao": "Porto Alegre/RS",
+    "area": "TI",
+    "habilidadesTecnicas": [
+      "C#",
+      "REST API",
+      "Ruby",
+      "Vue.js",
+      "TypeScript",
+      "Machine Learning"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Organização",
+      "Trabalho em equipe",
+      "Comunicação",
+      "Resolução de problemas"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "cargo": "Tech Lead Sênior",
+        "inicio": "2018-10",
+        "fim": null,
+        "descricao": "Responsável por ti e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 2",
+        "cargo": "Tech Lead Pleno",
+        "inicio": "2019-08",
+        "fim": "2020-05",
+        "descricao": "Responsável por ti e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 3",
+        "cargo": "Tech Lead Pleno",
+        "inicio": "2020-11",
+        "fim": "2021-02",
+        "descricao": "Responsável por ti e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 4",
+        "cargo": "Tech Lead Pleno",
+        "inicio": "2021-11",
+        "fim": "2022-10",
+        "descricao": "Responsável por ti e desenvolvimento de soluções inovadoras."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "UFMG",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 1",
+        "link": "https://projeto7-1.com",
+        "descricao": "Projeto focado em C# e REST API."
+      },
+      {
+        "titulo": "Projeto 2",
+        "link": "https://projeto7-2.com",
+        "descricao": "Projeto focado em C# e REST API."
+      }
+    ],
+    "certificacoes": [
+      "Certificação C# 7",
+      "Certificação TI 7"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Português",
+        "nivel": "Nativo"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Tecnologia",
+      "Inovação"
+    ]
+  },
+  {
+    "id": 8,
+    "nome": "Helena Rodrigues",
+    "foto": "./images/foto8.jpg",
+    "cargo": "Especialista Saúde",
+    "resumo": "Profissional experiente em Saúde com foco em inovação e tecnologia. Especialista em JavaScript e Go.",
+    "localizacao": "Goiânia/GO",
+    "area": "Saúde",
+    "habilidadesTecnicas": [
+      "JavaScript",
+      "Go",
+      "C#",
+      "Docker",
+      "Kotlin",
+      "Java",
+      "Vue.js",
+      "Flutter",
+      "Swift"
+    ],
+    "softSkills": [
+      "Pensamento crítico",
+      "Adaptabilidade",
+      "Organização",
+      "Criatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "cargo": "Especialista Sênior",
+        "inicio": "2018-09",
+        "fim": null,
+        "descricao": "Responsável por saúde e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 2",
+        "cargo": "Especialista Pleno",
+        "inicio": "2019-11",
+        "fim": "2020-09",
+        "descricao": "Responsável por saúde e desenvolvimento de soluções inovadoras."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia",
+        "instituicao": "Insper",
+        "ano": 2023
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [
+      "Certificação JavaScript 8",
+      "Certificação Saúde 8"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Português",
+        "nivel": "Nativo"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Básico"
+      }
+    ],
+    "areaInteresses": [
+      "Tecnologia",
+      "IA",
+      "Empreendedorismo",
+      "Inovação"
+    ]
+  },
+  {
+    "id": 9,
+    "nome": "Igor Martins",
+    "foto": "./images/foto9.jpg",
+    "cargo": "Gerente TI",
+    "resumo": "Profissional experiente em TI com foco em inovação e tecnologia. Especialista em Blockchain e Express.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "TI",
+    "habilidadesTecnicas": [
+      "Blockchain",
+      "Express",
+      "Flutter",
+      "MongoDB",
+      "PHP",
+      "Java"
+    ],
+    "softSkills": [
+      "Trabalho em equipe",
+      "Resolução de problemas"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "cargo": "Gerente Sênior",
+        "inicio": "2018-06",
+        "fim": null,
+        "descricao": "Responsável por ti e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 2",
+        "cargo": "Gerente Pleno",
+        "inicio": "2019-05",
+        "fim": "2020-09",
+        "descricao": "Responsável por ti e desenvolvimento de soluções inovadoras."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "UFMG",
+        "ano": 2021
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 1",
+        "link": "https://projeto9-1.com",
+        "descricao": "Projeto focado em Blockchain e Express."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Blockchain 9",
+      "Certificação TI 9"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Português",
+        "nivel": "Nativo"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Cloud Computing",
+      "IA"
+    ]
+  },
+  {
+    "id": 10,
+    "nome": "Juliana Ferreira",
+    "foto": "./images/foto10.jpg",
+    "cargo": "Product Manager Marketing",
+    "resumo": "Profissional experiente em Marketing com foco em inovação e tecnologia. Especialista em Next.js e Swift.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Marketing",
+    "habilidadesTecnicas": [
+      "Next.js",
+      "Swift",
+      "Angular",
+      "Python",
+      "PHP",
+      "MySQL"
+    ],
+    "softSkills": [
+      "Proatividade",
+      "Trabalho em equipe",
+      "Empatia",
+      "Organização",
+      "Criatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "cargo": "Product Manager Sênior",
+        "inicio": "2018-12",
+        "fim": null,
+        "descricao": "Responsável por marketing e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 2",
+        "cargo": "Product Manager Pleno",
+        "inicio": "2019-10",
+        "fim": "2020-08",
+        "descricao": "Responsável por marketing e desenvolvimento de soluções inovadoras."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Software",
+        "instituicao": "UFMG",
+        "ano": 2013
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 1",
+        "link": "https://projeto10-1.com",
+        "descricao": "Projeto focado em Next.js e Swift."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Next.js 10",
+      "Certificação Marketing 10"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Português",
+        "nivel": "Nativo"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Básico"
+      }
+    ],
+    "areaInteresses": [
+      "UX/UI",
+      "Mobile",
+      "Agile",
+      "Sustentabilidade"
+    ]
+  },
+  {
+    "id": 11,
+    "nome": "Lucas Souza",
+    "foto": "./images/foto11.jpg",
+    "cargo": "Designer Vendas",
+    "resumo": "Profissional experiente em Vendas com foco em inovação e tecnologia. Especialista em Blockchain e React.",
+    "localizacao": "Manaus/AM",
+    "area": "Vendas",
+    "habilidadesTecnicas": [
+      "Blockchain",
+      "React",
+      "Azure",
+      "Vue.js",
+      "GraphQL",
+      "Go",
+      "Next.js"
+    ],
+    "softSkills": [
+      "Adaptabilidade",
+      "Liderança",
+      "Trabalho em equipe"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "cargo": "Designer Sênior",
+        "inicio": "2018-07",
+        "fim": null,
+        "descricao": "Responsável por vendas e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 2",
+        "cargo": "Designer Pleno",
+        "inicio": "2019-12",
+        "fim": "2020-01",
+        "descricao": "Responsável por vendas e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 3",
+        "cargo": "Designer Pleno",
+        "inicio": "2020-08",
+        "fim": "2021-12",
+        "descricao": "Responsável por vendas e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 4",
+        "cargo": "Designer Pleno",
+        "inicio": "2021-09",
+        "fim": "2022-08",
+        "descricao": "Responsável por vendas e desenvolvimento de soluções inovadoras."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Insper",
+        "ano": 2015
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 1",
+        "link": "https://projeto11-1.com",
+        "descricao": "Projeto focado em Blockchain e React."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Blockchain 11",
+      "Certificação Vendas 11"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Português",
+        "nivel": "Nativo"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Básico"
+      }
+    ],
+    "areaInteresses": [
+      "Tecnologia",
+      "Cloud Computing",
+      "Transformação Digital"
+    ]
+  },
+  {
+    "id": 12,
+    "nome": "Mariana Gomes",
+    "foto": "./images/foto12.jpg",
+    "cargo": "Tech Lead Saúde",
+    "resumo": "Profissional experiente em Saúde com foco em inovação e tecnologia. Especialista em Go e Django.",
+    "localizacao": "Campinas/SP",
+    "area": "Saúde",
+    "habilidadesTecnicas": [
+      "Go",
+      "Django",
+      "IoT",
+      "Redis",
+      "Azure",
+      "Angular"
+    ],
+    "softSkills": [
+      "Adaptabilidade",
+      "Trabalho em equipe",
+      "Proatividade",
+      "Resolução de problemas"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "cargo": "Tech Lead Sênior",
+        "inicio": "2018-03",
+        "fim": null,
+        "descricao": "Responsável por saúde e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 2",
+        "cargo": "Tech Lead Pleno",
+        "inicio": "2019-03",
+        "fim": "2020-10",
+        "descricao": "Responsável por saúde e desenvolvimento de soluções inovadoras."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "UFMG",
+        "ano": 2013
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 1",
+        "link": "https://projeto12-1.com",
+        "descricao": "Projeto focado em Go e Django."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Go 12",
+      "Certificação Saúde 12"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Português",
+        "nivel": "Nativo"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Básico"
+      }
+    ],
+    "areaInteresses": [
+      "UX/UI",
+      "Empreendedorismo"
+    ]
+  },
+  {
+    "id": 13,
+    "nome": "Nicolas Barbosa",
+    "foto": "./images/foto13.jpg",
+    "cargo": "Especialista Vendas",
+    "resumo": "Profissional experiente em Vendas com foco em inovação e tecnologia. Especialista em Azure e TypeScript.",
+    "localizacao": "São Paulo/SP",
+    "area": "Vendas",
+    "habilidadesTecnicas": [
+      "Azure",
+      "TypeScript",
+      "REST API",
+      "Spring Boot",
+      "AWS",
+      "React"
+    ],
+    "softSkills": [
+      "Proatividade",
+      "Criatividade",
+      "Pensamento crítico",
+      "Comunicação"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "cargo": "Especialista Sênior",
+        "inicio": "2018-05",
+        "fim": null,
+        "descricao": "Responsável por vendas e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 2",
+        "cargo": "Especialista Pleno",
+        "inicio": "2019-03",
+        "fim": "2020-01",
+        "descricao": "Responsável por vendas e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 3",
+        "cargo": "Especialista Pleno",
+        "inicio": "2020-06",
+        "fim": "2021-07",
+        "descricao": "Responsável por vendas e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 4",
+        "cargo": "Especialista Pleno",
+        "inicio": "2021-07",
+        "fim": "2022-12",
+        "descricao": "Responsável por vendas e desenvolvimento de soluções inovadoras."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Análise e Desenvolvimento de Sistemas",
+        "instituicao": "Insper",
+        "ano": 2016
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 1",
+        "link": "https://projeto13-1.com",
+        "descricao": "Projeto focado em Azure e TypeScript."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Azure 13",
+      "Certificação Vendas 13"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Português",
+        "nivel": "Nativo"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Básico"
+      }
+    ],
+    "areaInteresses": [
+      "Agile",
+      "Sustentabilidade",
+      "Empreendedorismo"
+    ]
+  },
+  {
+    "id": 14,
+    "nome": "Patricia Ribeiro",
+    "foto": "./images/foto14.jpg",
+    "cargo": "Engenheiro Negócios",
+    "resumo": "Profissional experiente em Negócios com foco em inovação e tecnologia. Especialista em AWS e REST API.",
+    "localizacao": "Manaus/AM",
+    "area": "Negócios",
+    "habilidadesTecnicas": [
+      "AWS",
+      "REST API",
+      "Azure",
+      "GCP",
+      "Express"
+    ],
+    "softSkills": [
+      "Pensamento crítico",
+      "Trabalho em equipe",
+      "Adaptabilidade",
+      "Resolução de problemas",
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "cargo": "Engenheiro Sênior",
+        "inicio": "2018-01",
+        "fim": null,
+        "descricao": "Responsável por negócios e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 2",
+        "cargo": "Engenheiro Pleno",
+        "inicio": "2019-03",
+        "fim": "2020-12",
+        "descricao": "Responsável por negócios e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 3",
+        "cargo": "Engenheiro Pleno",
+        "inicio": "2020-03",
+        "fim": "2021-02",
+        "descricao": "Responsável por negócios e desenvolvimento de soluções inovadoras."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "FGV",
+        "ano": 2013
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 1",
+        "link": "https://projeto14-1.com",
+        "descricao": "Projeto focado em AWS e REST API."
+      },
+      {
+        "titulo": "Projeto 2",
+        "link": "https://projeto14-2.com",
+        "descricao": "Projeto focado em AWS e REST API."
+      }
+    ],
+    "certificacoes": [
+      "Certificação AWS 14",
+      "Certificação Negócios 14"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Português",
+        "nivel": "Nativo"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "UX/UI",
+      "Tecnologia",
+      "Cloud Computing",
+      "Transformação Digital"
+    ]
+  },
+  {
+    "id": 15,
+    "nome": "Rafael Araújo",
+    "foto": "./images/foto15.jpg",
+    "cargo": "Tech Lead Educação",
+    "resumo": "Profissional experiente em Educação com foco em inovação e tecnologia. Especialista em Ruby e Java.",
+    "localizacao": "Campinas/SP",
+    "area": "Educação",
+    "habilidadesTecnicas": [
+      "Ruby",
+      "Java",
+      "MongoDB",
+      "PHP",
+      "Angular"
+    ],
+    "softSkills": [
+      "Trabalho em equipe",
+      "Comunicação",
+      "Adaptabilidade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "cargo": "Tech Lead Sênior",
+        "inicio": "2018-03",
+        "fim": null,
+        "descricao": "Responsável por educação e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 2",
+        "cargo": "Tech Lead Pleno",
+        "inicio": "2019-07",
+        "fim": "2020-04",
+        "descricao": "Responsável por educação e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 3",
+        "cargo": "Tech Lead Pleno",
+        "inicio": "2020-12",
+        "fim": "2021-07",
+        "descricao": "Responsável por educação e desenvolvimento de soluções inovadoras."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "FGV",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 1",
+        "link": "https://projeto15-1.com",
+        "descricao": "Projeto focado em Ruby e Java."
+      },
+      {
+        "titulo": "Projeto 2",
+        "link": "https://projeto15-2.com",
+        "descricao": "Projeto focado em Ruby e Java."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Ruby 15",
+      "Certificação Educação 15"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Português",
+        "nivel": "Nativo"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Fluente"
+      }
+    ],
+    "areaInteresses": [
+      "IA"
+    ]
+  },
+  {
+    "id": 16,
+    "nome": "Sofia Carvalho",
+    "foto": "./images/foto16.jpg",
+    "cargo": "QA TI",
+    "resumo": "Profissional experiente em TI com foco em inovação e tecnologia. Especialista em Spring Boot e Next.js.",
+    "localizacao": "Curitiba/PR",
+    "area": "TI",
+    "habilidadesTecnicas": [
+      "Spring Boot",
+      "Next.js",
+      "JavaScript",
+      "REST API",
+      "MongoDB",
+      "Kubernetes"
+    ],
+    "softSkills": [
+      "Adaptabilidade",
+      "Resolução de problemas",
+      "Trabalho em equipe"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "cargo": "QA Sênior",
+        "inicio": "2018-07",
+        "fim": null,
+        "descricao": "Responsável por ti e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 2",
+        "cargo": "QA Pleno",
+        "inicio": "2019-09",
+        "fim": "2020-09",
+        "descricao": "Responsável por ti e desenvolvimento de soluções inovadoras."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design",
+        "instituicao": "PUC",
+        "ano": 2013
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [
+      "Certificação Spring Boot 16",
+      "Certificação TI 16"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Português",
+        "nivel": "Nativo"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Básico"
+      }
+    ],
+    "areaInteresses": [
+      "Sustentabilidade",
+      "Tecnologia"
+    ]
+  },
+  {
+    "id": 17,
+    "nome": "Thiago Mendes",
+    "foto": "./images/foto17.jpg",
+    "cargo": "Scrum Master Vendas",
+    "resumo": "Profissional experiente em Vendas com foco em inovação e tecnologia. Especialista em Node.js e Kotlin.",
+    "localizacao": "Brasília/DF",
+    "area": "Vendas",
+    "habilidadesTecnicas": [
+      "Node.js",
+      "Kotlin",
+      "Java",
+      "PHP",
+      "Django",
+      "Docker",
+      "Data Science"
+    ],
+    "softSkills": [
+      "Pensamento crítico",
+      "Adaptabilidade",
+      "Comunicação",
+      "Empatia",
+      "Trabalho em equipe"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "cargo": "Scrum Master Sênior",
+        "inicio": "2018-11",
+        "fim": null,
+        "descricao": "Responsável por vendas e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 2",
+        "cargo": "Scrum Master Pleno",
+        "inicio": "2019-12",
+        "fim": "2020-05",
+        "descricao": "Responsável por vendas e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 3",
+        "cargo": "Scrum Master Pleno",
+        "inicio": "2020-11",
+        "fim": "2021-01",
+        "descricao": "Responsável por vendas e desenvolvimento de soluções inovadoras."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia",
+        "instituicao": "Insper",
+        "ano": 2014
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 1",
+        "link": "https://projeto17-1.com",
+        "descricao": "Projeto focado em Node.js e Kotlin."
+      },
+      {
+        "titulo": "Projeto 2",
+        "link": "https://projeto17-2.com",
+        "descricao": "Projeto focado em Node.js e Kotlin."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Node.js 17",
+      "Certificação Vendas 17"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Português",
+        "nivel": "Nativo"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Agile",
+      "Cloud Computing"
+    ]
+  },
+  {
+    "id": 18,
+    "nome": "Vanessa Castro",
+    "foto": "./images/foto18.jpg",
+    "cargo": "Engenheiro Saúde",
+    "resumo": "Profissional experiente em Saúde com foco em inovação e tecnologia. Especialista em GraphQL e Blockchain.",
+    "localizacao": "Goiânia/GO",
+    "area": "Saúde",
+    "habilidadesTecnicas": [
+      "GraphQL",
+      "Blockchain",
+      "MongoDB",
+      "GCP",
+      "Docker",
+      "TypeScript",
+      "React",
+      "Machine Learning"
+    ],
+    "softSkills": [
+      "Proatividade",
+      "Pensamento crítico",
+      "Resolução de problemas",
+      "Adaptabilidade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "cargo": "Engenheiro Sênior",
+        "inicio": "2018-07",
+        "fim": null,
+        "descricao": "Responsável por saúde e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 2",
+        "cargo": "Engenheiro Pleno",
+        "inicio": "2019-12",
+        "fim": "2020-01",
+        "descricao": "Responsável por saúde e desenvolvimento de soluções inovadoras."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "USP",
+        "ano": 2012
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 1",
+        "link": "https://projeto18-1.com",
+        "descricao": "Projeto focado em GraphQL e Blockchain."
+      }
+    ],
+    "certificacoes": [
+      "Certificação GraphQL 18",
+      "Certificação Saúde 18"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Português",
+        "nivel": "Nativo"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "IA",
+      "Transformação Digital",
+      "Cloud Computing",
+      "Sustentabilidade"
+    ]
+  },
+  {
+    "id": 19,
+    "nome": "Wagner Dias",
+    "foto": "./images/foto19.jpg",
+    "cargo": "Tech Lead Marketing",
+    "resumo": "Profissional experiente em Marketing com foco em inovação e tecnologia. Especialista em Spring Boot e Ruby.",
+    "localizacao": "Curitiba/PR",
+    "area": "Marketing",
+    "habilidadesTecnicas": [
+      "Spring Boot",
+      "Ruby",
+      "PHP",
+      "Kubernetes",
+      "React",
+      "Swift",
+      "Next.js"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Pensamento crítico",
+      "Proatividade",
+      "Criatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "cargo": "Tech Lead Sênior",
+        "inicio": "2018-02",
+        "fim": null,
+        "descricao": "Responsável por marketing e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 2",
+        "cargo": "Tech Lead Pleno",
+        "inicio": "2019-11",
+        "fim": "2020-05",
+        "descricao": "Responsável por marketing e desenvolvimento de soluções inovadoras."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Insper",
+        "ano": 2010
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [
+      "Certificação Spring Boot 19",
+      "Certificação Marketing 19"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Português",
+        "nivel": "Nativo"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "IA",
+      "Cloud Computing"
+    ]
+  },
+  {
+    "id": 20,
+    "nome": "Yasmin Freitas",
+    "foto": "./images/foto20.jpg",
+    "cargo": "Arquiteto Engenharia",
+    "resumo": "Profissional experiente em Engenharia com foco em inovação e tecnologia. Especialista em Kubernetes e Machine Learning.",
+    "localizacao": "Salvador/BA",
+    "area": "Engenharia",
+    "habilidadesTecnicas": [
+      "Kubernetes",
+      "Machine Learning",
+      "GraphQL",
+      "Spring Boot",
+      "Redis"
+    ],
+    "softSkills": [
+      "Trabalho em equipe",
+      "Organização",
+      "Comunicação",
+      "Proatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "cargo": "Arquiteto Sênior",
+        "inicio": "2018-01",
+        "fim": null,
+        "descricao": "Responsável por engenharia e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 2",
+        "cargo": "Arquiteto Pleno",
+        "inicio": "2019-04",
+        "fim": "2020-04",
+        "descricao": "Responsável por engenharia e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 3",
+        "cargo": "Arquiteto Pleno",
+        "inicio": "2020-12",
+        "fim": "2021-02",
+        "descricao": "Responsável por engenharia e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 4",
+        "cargo": "Arquiteto Pleno",
+        "inicio": "2021-12",
+        "fim": "2022-10",
+        "descricao": "Responsável por engenharia e desenvolvimento de soluções inovadoras."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design",
+        "instituicao": "USP",
+        "ano": 2023
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [
+      "Certificação Kubernetes 20",
+      "Certificação Engenharia 20"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Português",
+        "nivel": "Nativo"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "IA",
+      "Cloud Computing"
+    ]
+  },
+  {
+    "id": 21,
+    "nome": "André Nunes",
+    "foto": "./images/foto21.jpg",
+    "cargo": "Product Manager TI",
+    "resumo": "Profissional experiente em TI com foco em inovação e tecnologia. Especialista em Spring Boot e MySQL.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "TI",
+    "habilidadesTecnicas": [
+      "Spring Boot",
+      "MySQL",
+      "REST API",
+      "React Native",
+      "GraphQL",
+      "C#"
+    ],
+    "softSkills": [
+      "Criatividade",
+      "Adaptabilidade",
+      "Trabalho em equipe",
+      "Resolução de problemas"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "cargo": "Product Manager Sênior",
+        "inicio": "2018-07",
+        "fim": null,
+        "descricao": "Responsável por ti e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 2",
+        "cargo": "Product Manager Pleno",
+        "inicio": "2019-08",
+        "fim": "2020-03",
+        "descricao": "Responsável por ti e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 3",
+        "cargo": "Product Manager Pleno",
+        "inicio": "2020-03",
+        "fim": "2021-08",
+        "descricao": "Responsável por ti e desenvolvimento de soluções inovadoras."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Análise e Desenvolvimento de Sistemas",
+        "instituicao": "USP",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 1",
+        "link": "https://projeto21-1.com",
+        "descricao": "Projeto focado em Spring Boot e MySQL."
+      },
+      {
+        "titulo": "Projeto 2",
+        "link": "https://projeto21-2.com",
+        "descricao": "Projeto focado em Spring Boot e MySQL."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Spring Boot 21",
+      "Certificação TI 21"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Português",
+        "nivel": "Nativo"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "Empreendedorismo",
+      "Agile"
+    ]
+  },
+  {
+    "id": 22,
+    "nome": "Beatriz Rocha",
+    "foto": "./images/foto22.jpg",
+    "cargo": "DevOps Saúde",
+    "resumo": "Profissional experiente em Saúde com foco em inovação e tecnologia. Especialista em Go e Python.",
+    "localizacao": "Fortaleza/CE",
+    "area": "Saúde",
+    "habilidadesTecnicas": [
+      "Go",
+      "Python",
+      "REST API",
+      "Kubernetes",
+      "Java",
+      "Vue.js",
+      "MySQL",
+      "Ruby"
+    ],
+    "softSkills": [
+      "Proatividade",
+      "Organização",
+      "Pensamento crítico",
+      "Criatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "cargo": "DevOps Sênior",
+        "inicio": "2018-05",
+        "fim": null,
+        "descricao": "Responsável por saúde e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 2",
+        "cargo": "DevOps Pleno",
+        "inicio": "2019-03",
+        "fim": "2020-09",
+        "descricao": "Responsável por saúde e desenvolvimento de soluções inovadoras."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "USP",
+        "ano": 2019
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [
+      "Certificação Go 22",
+      "Certificação Saúde 22"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Português",
+        "nivel": "Nativo"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Agile",
+      "Inovação",
+      "Cloud Computing",
+      "UX/UI"
+    ]
+  },
+  {
+    "id": 23,
+    "nome": "Caio Monteiro",
+    "foto": "./images/foto23.jpg",
+    "cargo": "Desenvolvedor TI",
+    "resumo": "Profissional experiente em TI com foco em inovação e tecnologia. Especialista em React e PHP.",
+    "localizacao": "Campinas/SP",
+    "area": "TI",
+    "habilidadesTecnicas": [
+      "React",
+      "PHP",
+      "Ruby",
+      "Swift",
+      "PostgreSQL",
+      "Python",
+      "GCP"
+    ],
+    "softSkills": [
+      "Empatia",
+      "Organização",
+      "Pensamento crítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "cargo": "Desenvolvedor Sênior",
+        "inicio": "2018-05",
+        "fim": null,
+        "descricao": "Responsável por ti e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 2",
+        "cargo": "Desenvolvedor Pleno",
+        "inicio": "2019-11",
+        "fim": "2020-10",
+        "descricao": "Responsável por ti e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 3",
+        "cargo": "Desenvolvedor Pleno",
+        "inicio": "2020-01",
+        "fim": "2021-02",
+        "descricao": "Responsável por ti e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 4",
+        "cargo": "Desenvolvedor Pleno",
+        "inicio": "2021-01",
+        "fim": "2022-02",
+        "descricao": "Responsável por ti e desenvolvimento de soluções inovadoras."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "FGV",
+        "ano": 2014
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 1",
+        "link": "https://projeto23-1.com",
+        "descricao": "Projeto focado em React e PHP."
+      },
+      {
+        "titulo": "Projeto 2",
+        "link": "https://projeto23-2.com",
+        "descricao": "Projeto focado em React e PHP."
+      }
+    ],
+    "certificacoes": [
+      "Certificação React 23",
+      "Certificação TI 23"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Português",
+        "nivel": "Nativo"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Tecnologia",
+      "Empreendedorismo"
+    ]
+  },
+  {
+    "id": 24,
+    "nome": "Débora Cardoso",
+    "foto": "./images/foto24.jpg",
+    "cargo": "Especialista Engenharia",
+    "resumo": "Profissional experiente em Engenharia com foco em inovação e tecnologia. Especialista em Ruby e IoT.",
+    "localizacao": "Fortaleza/CE",
+    "area": "Engenharia",
+    "habilidadesTecnicas": [
+      "Ruby",
+      "IoT",
+      "Docker",
+      "Go",
+      "AWS",
+      "Data Science"
+    ],
+    "softSkills": [
+      "Organização",
+      "Criatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "cargo": "Especialista Sênior",
+        "inicio": "2018-03",
+        "fim": null,
+        "descricao": "Responsável por engenharia e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 2",
+        "cargo": "Especialista Pleno",
+        "inicio": "2019-09",
+        "fim": "2020-12",
+        "descricao": "Responsável por engenharia e desenvolvimento de soluções inovadoras."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "UFMG",
+        "ano": 2016
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 1",
+        "link": "https://projeto24-1.com",
+        "descricao": "Projeto focado em Ruby e IoT."
+      },
+      {
+        "titulo": "Projeto 2",
+        "link": "https://projeto24-2.com",
+        "descricao": "Projeto focado em Ruby e IoT."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Ruby 24",
+      "Certificação Engenharia 24"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Português",
+        "nivel": "Nativo"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Básico"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "Tecnologia"
+    ]
+  },
+  {
+    "id": 25,
+    "nome": "Felipe Teixeira",
+    "foto": "./images/foto25.jpg",
+    "cargo": "Engenheiro Educação",
+    "resumo": "Profissional experiente em Educação com foco em inovação e tecnologia. Especialista em JavaScript e Java.",
+    "localizacao": "Campinas/SP",
+    "area": "Educação",
+    "habilidadesTecnicas": [
+      "JavaScript",
+      "Java",
+      "IoT",
+      "REST API",
+      "Kubernetes",
+      "Express",
+      "TypeScript",
+      "AWS"
+    ],
+    "softSkills": [
+      "Criatividade",
+      "Empatia",
+      "Adaptabilidade",
+      "Comunicação"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "cargo": "Engenheiro Sênior",
+        "inicio": "2018-12",
+        "fim": null,
+        "descricao": "Responsável por educação e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 2",
+        "cargo": "Engenheiro Pleno",
+        "inicio": "2019-01",
+        "fim": "2020-05",
+        "descricao": "Responsável por educação e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 3",
+        "cargo": "Engenheiro Pleno",
+        "inicio": "2020-01",
+        "fim": "2021-11",
+        "descricao": "Responsável por educação e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 4",
+        "cargo": "Engenheiro Pleno",
+        "inicio": "2021-06",
+        "fim": "2022-10",
+        "descricao": "Responsável por educação e desenvolvimento de soluções inovadoras."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia",
+        "instituicao": "Insper",
+        "ano": 2014
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [
+      "Certificação JavaScript 25",
+      "Certificação Educação 25"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Português",
+        "nivel": "Nativo"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "Sustentabilidade"
+    ]
+  },
+  {
+    "id": 26,
+    "nome": "Giovanna Moura",
+    "foto": "./images/foto26.jpg",
+    "cargo": "Desenvolvedor Educação",
+    "resumo": "Profissional experiente em Educação com foco em inovação e tecnologia. Especialista em Redis e Ruby.",
+    "localizacao": "São Paulo/SP",
+    "area": "Educação",
+    "habilidadesTecnicas": [
+      "Redis",
+      "Ruby",
+      "C#",
+      "Express",
+      "Kubernetes"
+    ],
+    "softSkills": [
+      "Organização",
+      "Empatia"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "cargo": "Desenvolvedor Sênior",
+        "inicio": "2018-03",
+        "fim": null,
+        "descricao": "Responsável por educação e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 2",
+        "cargo": "Desenvolvedor Pleno",
+        "inicio": "2019-04",
+        "fim": "2020-05",
+        "descricao": "Responsável por educação e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 3",
+        "cargo": "Desenvolvedor Pleno",
+        "inicio": "2020-02",
+        "fim": "2021-04",
+        "descricao": "Responsável por educação e desenvolvimento de soluções inovadoras."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design",
+        "instituicao": "UFMG",
+        "ano": 2023
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [
+      "Certificação Redis 26",
+      "Certificação Educação 26"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Português",
+        "nivel": "Nativo"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Fluente"
+      }
+    ],
+    "areaInteresses": [
+      "Mobile",
+      "Sustentabilidade",
+      "Agile",
+      "Cloud Computing"
+    ]
+  },
+  {
+    "id": 27,
+    "nome": "Henrique Ramos",
+    "foto": "./images/foto27.jpg",
+    "cargo": "Designer Vendas",
+    "resumo": "Profissional experiente em Vendas com foco em inovação e tecnologia. Especialista em REST API e PostgreSQL.",
+    "localizacao": "São Paulo/SP",
+    "area": "Vendas",
+    "habilidadesTecnicas": [
+      "REST API",
+      "PostgreSQL",
+      "Swift",
+      "Azure",
+      "Blockchain",
+      "React Native",
+      "Django"
+    ],
+    "softSkills": [
+      "Criatividade",
+      "Resolução de problemas",
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "cargo": "Designer Sênior",
+        "inicio": "2018-03",
+        "fim": null,
+        "descricao": "Responsável por vendas e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 2",
+        "cargo": "Designer Pleno",
+        "inicio": "2019-08",
+        "fim": "2020-11",
+        "descricao": "Responsável por vendas e desenvolvimento de soluções inovadoras."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design",
+        "instituicao": "Insper",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 1",
+        "link": "https://projeto27-1.com",
+        "descricao": "Projeto focado em REST API e PostgreSQL."
+      }
+    ],
+    "certificacoes": [
+      "Certificação REST API 27",
+      "Certificação Vendas 27"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Português",
+        "nivel": "Nativo"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Fluente"
+      }
+    ],
+    "areaInteresses": [
+      "Sustentabilidade",
+      "Agile"
+    ]
+  },
+  {
+    "id": 28,
+    "nome": "Isabela Lopes",
+    "foto": "./images/foto28.jpg",
+    "cargo": "Designer Saúde",
+    "resumo": "Profissional experiente em Saúde com foco em inovação e tecnologia. Especialista em GraphQL e PHP.",
+    "localizacao": "Curitiba/PR",
+    "area": "Saúde",
+    "habilidadesTecnicas": [
+      "GraphQL",
+      "PHP",
+      "Next.js",
+      "MongoDB",
+      "Java",
+      "REST API",
+      "React",
+      "Machine Learning"
+    ],
+    "softSkills": [
+      "Pensamento crítico",
+      "Resolução de problemas",
+      "Criatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "cargo": "Designer Sênior",
+        "inicio": "2018-06",
+        "fim": null,
+        "descricao": "Responsável por saúde e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 2",
+        "cargo": "Designer Pleno",
+        "inicio": "2019-07",
+        "fim": "2020-11",
+        "descricao": "Responsável por saúde e desenvolvimento de soluções inovadoras."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "PUC",
+        "ano": 2016
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 1",
+        "link": "https://projeto28-1.com",
+        "descricao": "Projeto focado em GraphQL e PHP."
+      }
+    ],
+    "certificacoes": [
+      "Certificação GraphQL 28",
+      "Certificação Saúde 28"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Português",
+        "nivel": "Nativo"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Mobile",
+      "Transformação Digital"
+    ]
+  },
+  {
+    "id": 29,
+    "nome": "João Campos",
+    "foto": "./images/foto29.jpg",
+    "cargo": "Consultor Finanças",
+    "resumo": "Profissional experiente em Finanças com foco em inovação e tecnologia. Especialista em Go e Azure.",
+    "localizacao": "Recife/PE",
+    "area": "Finanças",
+    "habilidadesTecnicas": [
+      "Go",
+      "Azure",
+      "Kotlin",
+      "PostgreSQL",
+      "MongoDB",
+      "Vue.js"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "cargo": "Consultor Sênior",
+        "inicio": "2018-06",
+        "fim": null,
+        "descricao": "Responsável por finanças e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 2",
+        "cargo": "Consultor Pleno",
+        "inicio": "2019-03",
+        "fim": "2020-12",
+        "descricao": "Responsável por finanças e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 3",
+        "cargo": "Consultor Pleno",
+        "inicio": "2020-06",
+        "fim": "2021-05",
+        "descricao": "Responsável por finanças e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 4",
+        "cargo": "Consultor Pleno",
+        "inicio": "2021-11",
+        "fim": "2022-11",
+        "descricao": "Responsável por finanças e desenvolvimento de soluções inovadoras."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "USP",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 1",
+        "link": "https://projeto29-1.com",
+        "descricao": "Projeto focado em Go e Azure."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Go 29",
+      "Certificação Finanças 29"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Português",
+        "nivel": "Nativo"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Básico"
+      }
+    ],
+    "areaInteresses": [
+      "Sustentabilidade",
+      "Agile"
+    ]
+  },
+  {
+    "id": 30,
+    "nome": "Karina Duarte",
+    "foto": "./images/foto30.jpg",
+    "cargo": "Scrum Master Marketing",
+    "resumo": "Profissional experiente em Marketing com foco em inovação e tecnologia. Especialista em Redis e Express.",
+    "localizacao": "Fortaleza/CE",
+    "area": "Marketing",
+    "habilidadesTecnicas": [
+      "Redis",
+      "Express",
+      "AWS",
+      "PHP",
+      "MongoDB",
+      "Python"
+    ],
+    "softSkills": [
+      "Trabalho em equipe",
+      "Empatia",
+      "Proatividade",
+      "Criatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "cargo": "Scrum Master Sênior",
+        "inicio": "2018-06",
+        "fim": null,
+        "descricao": "Responsável por marketing e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 2",
+        "cargo": "Scrum Master Pleno",
+        "inicio": "2019-06",
+        "fim": "2020-11",
+        "descricao": "Responsável por marketing e desenvolvimento de soluções inovadoras."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design",
+        "instituicao": "PUC",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 1",
+        "link": "https://projeto30-1.com",
+        "descricao": "Projeto focado em Redis e Express."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Redis 30",
+      "Certificação Marketing 30"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Português",
+        "nivel": "Nativo"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Cloud Computing",
+      "Tecnologia",
+      "Agile"
+    ]
+  },
+  {
+    "id": 31,
+    "nome": "Leonardo Azevedo",
+    "foto": "./images/foto31.jpg",
+    "cargo": "Gerente Engenharia",
+    "resumo": "Profissional experiente em Engenharia com foco em inovação e tecnologia. Especialista em Node.js e MongoDB.",
+    "localizacao": "Curitiba/PR",
+    "area": "Engenharia",
+    "habilidadesTecnicas": [
+      "Node.js",
+      "MongoDB",
+      "Angular",
+      "Go",
+      "Machine Learning"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Empatia"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "cargo": "Gerente Sênior",
+        "inicio": "2018-12",
+        "fim": null,
+        "descricao": "Responsável por engenharia e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 2",
+        "cargo": "Gerente Pleno",
+        "inicio": "2019-07",
+        "fim": "2020-10",
+        "descricao": "Responsável por engenharia e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 3",
+        "cargo": "Gerente Pleno",
+        "inicio": "2020-12",
+        "fim": "2021-03",
+        "descricao": "Responsável por engenharia e desenvolvimento de soluções inovadoras."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design",
+        "instituicao": "USP",
+        "ano": 2017
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [
+      "Certificação Node.js 31",
+      "Certificação Engenharia 31"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Português",
+        "nivel": "Nativo"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "IA",
+      "Agile",
+      "Transformação Digital"
+    ]
+  },
+  {
+    "id": 32,
+    "nome": "Marcia Pires",
+    "foto": "./images/foto32.jpg",
+    "cargo": "Diretor RH",
+    "resumo": "Profissional experiente em RH com foco em inovação e tecnologia. Especialista em AWS e Blockchain.",
+    "localizacao": "Salvador/BA",
+    "area": "RH",
+    "habilidadesTecnicas": [
+      "AWS",
+      "Blockchain",
+      "GraphQL",
+      "Python",
+      "Data Science",
+      "Flutter",
+      "MySQL"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Trabalho em equipe",
+      "Comunicação",
+      "Empatia",
+      "Pensamento crítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "cargo": "Diretor Sênior",
+        "inicio": "2018-02",
+        "fim": null,
+        "descricao": "Responsável por rh e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 2",
+        "cargo": "Diretor Pleno",
+        "inicio": "2019-11",
+        "fim": "2020-04",
+        "descricao": "Responsável por rh e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 3",
+        "cargo": "Diretor Pleno",
+        "inicio": "2020-11",
+        "fim": "2021-08",
+        "descricao": "Responsável por rh e desenvolvimento de soluções inovadoras."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "UFMG",
+        "ano": 2023
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 1",
+        "link": "https://projeto32-1.com",
+        "descricao": "Projeto focado em AWS e Blockchain."
+      }
+    ],
+    "certificacoes": [
+      "Certificação AWS 32",
+      "Certificação RH 32"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Português",
+        "nivel": "Nativo"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "IA",
+      "UX/UI",
+      "Transformação Digital"
+    ]
+  },
+  {
+    "id": 33,
+    "nome": "Nathalia Rezende",
+    "foto": "./images/foto33.jpg",
+    "cargo": "Consultor RH",
+    "resumo": "Profissional experiente em RH com foco em inovação e tecnologia. Especialista em Java e Swift.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "RH",
+    "habilidadesTecnicas": [
+      "Java",
+      "Swift",
+      "Kotlin",
+      "Flutter",
+      "GraphQL",
+      "C#",
+      "Vue.js"
+    ],
+    "softSkills": [
+      "Liderança"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "cargo": "Consultor Sênior",
+        "inicio": "2018-10",
+        "fim": null,
+        "descricao": "Responsável por rh e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 2",
+        "cargo": "Consultor Pleno",
+        "inicio": "2019-08",
+        "fim": "2020-06",
+        "descricao": "Responsável por rh e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 3",
+        "cargo": "Consultor Pleno",
+        "inicio": "2020-10",
+        "fim": "2021-06",
+        "descricao": "Responsável por rh e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 4",
+        "cargo": "Consultor Pleno",
+        "inicio": "2021-10",
+        "fim": "2022-02",
+        "descricao": "Responsável por rh e desenvolvimento de soluções inovadoras."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design",
+        "instituicao": "UNICAMP",
+        "ano": 2015
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [
+      "Certificação Java 33",
+      "Certificação RH 33"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Português",
+        "nivel": "Nativo"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Fluente"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "Agile",
+      "Empreendedorismo"
+    ]
+  },
+  {
+    "id": 34,
+    "nome": "Otávio Fonseca",
+    "foto": "./images/foto34.jpg",
+    "cargo": "Arquiteto Educação",
+    "resumo": "Profissional experiente em Educação com foco em inovação e tecnologia. Especialista em Kotlin e Python.",
+    "localizacao": "São Paulo/SP",
+    "area": "Educação",
+    "habilidadesTecnicas": [
+      "Kotlin",
+      "Python",
+      "Redis",
+      "Swift",
+      "Data Science",
+      "JavaScript",
+      "Machine Learning"
+    ],
+    "softSkills": [
+      "Criatividade",
+      "Comunicação",
+      "Pensamento crítico",
+      "Empatia"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "cargo": "Arquiteto Sênior",
+        "inicio": "2018-11",
+        "fim": null,
+        "descricao": "Responsável por educação e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 2",
+        "cargo": "Arquiteto Pleno",
+        "inicio": "2019-03",
+        "fim": "2020-07",
+        "descricao": "Responsável por educação e desenvolvimento de soluções inovadoras."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Software",
+        "instituicao": "Insper",
+        "ano": 2018
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [
+      "Certificação Kotlin 34",
+      "Certificação Educação 34"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Português",
+        "nivel": "Nativo"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "IA",
+      "Mobile",
+      "Transformação Digital",
+      "Tecnologia"
+    ]
+  },
+  {
+    "id": 35,
+    "nome": "Paula Machado",
+    "foto": "./images/foto35.jpg",
+    "cargo": "Desenvolvedor Engenharia",
+    "resumo": "Profissional experiente em Engenharia com foco em inovação e tecnologia. Especialista em JavaScript e TypeScript.",
+    "localizacao": "Manaus/AM",
+    "area": "Engenharia",
+    "habilidadesTecnicas": [
+      "JavaScript",
+      "TypeScript",
+      "Kotlin",
+      "Redis",
+      "C#",
+      "AWS",
+      "Python"
+    ],
+    "softSkills": [
+      "Resolução de problemas",
+      "Liderança"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "cargo": "Desenvolvedor Sênior",
+        "inicio": "2018-03",
+        "fim": null,
+        "descricao": "Responsável por engenharia e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 2",
+        "cargo": "Desenvolvedor Pleno",
+        "inicio": "2019-06",
+        "fim": "2020-07",
+        "descricao": "Responsável por engenharia e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 3",
+        "cargo": "Desenvolvedor Pleno",
+        "inicio": "2020-11",
+        "fim": "2021-01",
+        "descricao": "Responsável por engenharia e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 4",
+        "cargo": "Desenvolvedor Pleno",
+        "inicio": "2021-01",
+        "fim": "2022-06",
+        "descricao": "Responsável por engenharia e desenvolvimento de soluções inovadoras."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia",
+        "instituicao": "UFMG",
+        "ano": 2012
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [
+      "Certificação JavaScript 35",
+      "Certificação Engenharia 35"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Português",
+        "nivel": "Nativo"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Fluente"
+      }
+    ],
+    "areaInteresses": [
+      "Sustentabilidade",
+      "Cloud Computing",
+      "Agile"
+    ]
+  },
+  {
+    "id": 36,
+    "nome": "Quésia Nascimento",
+    "foto": "./images/foto36.jpg",
+    "cargo": "Desenvolvedor Design",
+    "resumo": "Profissional experiente em Design com foco em inovação e tecnologia. Especialista em Python e JavaScript.",
+    "localizacao": "Goiânia/GO",
+    "area": "Design",
+    "habilidadesTecnicas": [
+      "Python",
+      "JavaScript",
+      "Angular",
+      "AWS",
+      "Kubernetes"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Empatia",
+      "Pensamento crítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "cargo": "Desenvolvedor Sênior",
+        "inicio": "2018-12",
+        "fim": null,
+        "descricao": "Responsável por design e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 2",
+        "cargo": "Desenvolvedor Pleno",
+        "inicio": "2019-09",
+        "fim": "2020-11",
+        "descricao": "Responsável por design e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 3",
+        "cargo": "Desenvolvedor Pleno",
+        "inicio": "2020-06",
+        "fim": "2021-08",
+        "descricao": "Responsável por design e desenvolvimento de soluções inovadoras."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Software",
+        "instituicao": "USP",
+        "ano": 2017
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 1",
+        "link": "https://projeto36-1.com",
+        "descricao": "Projeto focado em Python e JavaScript."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Python 36",
+      "Certificação Design 36"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Português",
+        "nivel": "Nativo"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Básico"
+      }
+    ],
+    "areaInteresses": [
+      "Mobile",
+      "Tecnologia",
+      "Inovação",
+      "UX/UI"
+    ]
+  },
+  {
+    "id": 37,
+    "nome": "Ricardo Tavares",
+    "foto": "./images/foto37.jpg",
+    "cargo": "Consultor Finanças",
+    "resumo": "Profissional experiente em Finanças com foco em inovação e tecnologia. Especialista em MongoDB e Swift.",
+    "localizacao": "Recife/PE",
+    "area": "Finanças",
+    "habilidadesTecnicas": [
+      "MongoDB",
+      "Swift",
+      "React",
+      "MySQL",
+      "REST API",
+      "GraphQL",
+      "Java",
+      "GCP"
+    ],
+    "softSkills": [
+      "Adaptabilidade",
+      "Comunicação",
+      "Resolução de problemas",
+      "Proatividade",
+      "Empatia"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "cargo": "Consultor Sênior",
+        "inicio": "2018-07",
+        "fim": null,
+        "descricao": "Responsável por finanças e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 2",
+        "cargo": "Consultor Pleno",
+        "inicio": "2019-11",
+        "fim": "2020-07",
+        "descricao": "Responsável por finanças e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 3",
+        "cargo": "Consultor Pleno",
+        "inicio": "2020-09",
+        "fim": "2021-08",
+        "descricao": "Responsável por finanças e desenvolvimento de soluções inovadoras."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Análise e Desenvolvimento de Sistemas",
+        "instituicao": "PUC",
+        "ano": 2016
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 1",
+        "link": "https://projeto37-1.com",
+        "descricao": "Projeto focado em MongoDB e Swift."
+      }
+    ],
+    "certificacoes": [
+      "Certificação MongoDB 37",
+      "Certificação Finanças 37"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Português",
+        "nivel": "Nativo"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Mobile",
+      "Tecnologia",
+      "Cloud Computing"
+    ]
+  },
+  {
+    "id": 38,
+    "nome": "Sabrina Moreira",
+    "foto": "./images/foto38.jpg",
+    "cargo": "Analista RH",
+    "resumo": "Profissional experiente em RH com foco em inovação e tecnologia. Especialista em Java e C#.",
+    "localizacao": "Campinas/SP",
+    "area": "RH",
+    "habilidadesTecnicas": [
+      "Java",
+      "C#",
+      "Vue.js",
+      "Blockchain",
+      "Azure",
+      "React"
+    ],
+    "softSkills": [
+      "Trabalho em equipe",
+      "Criatividade",
+      "Pensamento crítico",
+      "Proatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "cargo": "Analista Sênior",
+        "inicio": "2018-07",
+        "fim": null,
+        "descricao": "Responsável por rh e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 2",
+        "cargo": "Analista Pleno",
+        "inicio": "2019-07",
+        "fim": "2020-12",
+        "descricao": "Responsável por rh e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 3",
+        "cargo": "Analista Pleno",
+        "inicio": "2020-11",
+        "fim": "2021-09",
+        "descricao": "Responsável por rh e desenvolvimento de soluções inovadoras."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Análise e Desenvolvimento de Sistemas",
+        "instituicao": "Insper",
+        "ano": 2011
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 1",
+        "link": "https://projeto38-1.com",
+        "descricao": "Projeto focado em Java e C#."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Java 38",
+      "Certificação RH 38"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Português",
+        "nivel": "Nativo"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Fluente"
+      }
+    ],
+    "areaInteresses": [
+      "UX/UI",
+      "Inovação"
+    ]
+  },
+  {
+    "id": 39,
+    "nome": "Túlio Correia",
+    "foto": "./images/foto39.jpg",
+    "cargo": "Engenheiro RH",
+    "resumo": "Profissional experiente em RH com foco em inovação e tecnologia. Especialista em Angular e Docker.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "RH",
+    "habilidadesTecnicas": [
+      "Angular",
+      "Docker",
+      "Machine Learning",
+      "Swift",
+      "Blockchain"
+    ],
+    "softSkills": [
+      "Organização",
+      "Criatividade",
+      "Proatividade",
+      "Trabalho em equipe"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "cargo": "Engenheiro Sênior",
+        "inicio": "2018-11",
+        "fim": null,
+        "descricao": "Responsável por rh e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 2",
+        "cargo": "Engenheiro Pleno",
+        "inicio": "2019-11",
+        "fim": "2020-02",
+        "descricao": "Responsável por rh e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 3",
+        "cargo": "Engenheiro Pleno",
+        "inicio": "2020-05",
+        "fim": "2021-05",
+        "descricao": "Responsável por rh e desenvolvimento de soluções inovadoras."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "USP",
+        "ano": 2016
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 1",
+        "link": "https://projeto39-1.com",
+        "descricao": "Projeto focado em Angular e Docker."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Angular 39",
+      "Certificação RH 39"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Português",
+        "nivel": "Nativo"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Fluente"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "IA"
+    ]
+  },
+  {
+    "id": 40,
+    "nome": "Úrsula Viana",
+    "foto": "./images/foto40.jpg",
+    "cargo": "Especialista Engenharia",
+    "resumo": "Profissional experiente em Engenharia com foco em inovação e tecnologia. Especialista em Swift e JavaScript.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Engenharia",
+    "habilidadesTecnicas": [
+      "Swift",
+      "JavaScript",
+      "Node.js",
+      "Python",
+      "REST API"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Criatividade",
+      "Trabalho em equipe"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "cargo": "Especialista Sênior",
+        "inicio": "2018-11",
+        "fim": null,
+        "descricao": "Responsável por engenharia e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 2",
+        "cargo": "Especialista Pleno",
+        "inicio": "2019-08",
+        "fim": "2020-08",
+        "descricao": "Responsável por engenharia e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 3",
+        "cargo": "Especialista Pleno",
+        "inicio": "2020-01",
+        "fim": "2021-12",
+        "descricao": "Responsável por engenharia e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 4",
+        "cargo": "Especialista Pleno",
+        "inicio": "2021-04",
+        "fim": "2022-05",
+        "descricao": "Responsável por engenharia e desenvolvimento de soluções inovadoras."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Análise e Desenvolvimento de Sistemas",
+        "instituicao": "UFMG",
+        "ano": 2013
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 1",
+        "link": "https://projeto40-1.com",
+        "descricao": "Projeto focado em Swift e JavaScript."
+      },
+      {
+        "titulo": "Projeto 2",
+        "link": "https://projeto40-2.com",
+        "descricao": "Projeto focado em Swift e JavaScript."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Swift 40",
+      "Certificação Engenharia 40"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Português",
+        "nivel": "Nativo"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Cloud Computing",
+      "UX/UI"
+    ]
+  },
+  {
+    "id": 41,
+    "nome": "Vitor Hugo",
+    "foto": "./images/foto41.jpg",
+    "cargo": "Tech Lead Finanças",
+    "resumo": "Profissional experiente em Finanças com foco em inovação e tecnologia. Especialista em Flutter e MongoDB.",
+    "localizacao": "Salvador/BA",
+    "area": "Finanças",
+    "habilidadesTecnicas": [
+      "Flutter",
+      "MongoDB",
+      "Python",
+      "Angular",
+      "PostgreSQL",
+      "Data Science",
+      "REST API"
+    ],
+    "softSkills": [
+      "Resolução de problemas",
+      "Pensamento crítico",
+      "Criatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "cargo": "Tech Lead Sênior",
+        "inicio": "2018-08",
+        "fim": null,
+        "descricao": "Responsável por finanças e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 2",
+        "cargo": "Tech Lead Pleno",
+        "inicio": "2019-01",
+        "fim": "2020-08",
+        "descricao": "Responsável por finanças e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 3",
+        "cargo": "Tech Lead Pleno",
+        "inicio": "2020-06",
+        "fim": "2021-05",
+        "descricao": "Responsável por finanças e desenvolvimento de soluções inovadoras."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "UFMG",
+        "ano": 2013
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [
+      "Certificação Flutter 41",
+      "Certificação Finanças 41"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Português",
+        "nivel": "Nativo"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Tecnologia",
+      "Mobile"
+    ]
+  },
+  {
+    "id": 42,
+    "nome": "Wesley Pinheiro",
+    "foto": "./images/foto42.jpg",
+    "cargo": "Analista Vendas",
+    "resumo": "Profissional experiente em Vendas com foco em inovação e tecnologia. Especialista em GCP e Redis.",
+    "localizacao": "Salvador/BA",
+    "area": "Vendas",
+    "habilidadesTecnicas": [
+      "GCP",
+      "Redis",
+      "Next.js",
+      "Kubernetes",
+      "Java",
+      "Docker",
+      "MongoDB",
+      "Blockchain"
+    ],
+    "softSkills": [
+      "Criatividade",
+      "Trabalho em equipe",
+      "Adaptabilidade",
+      "Empatia"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "cargo": "Analista Sênior",
+        "inicio": "2018-09",
+        "fim": null,
+        "descricao": "Responsável por vendas e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 2",
+        "cargo": "Analista Pleno",
+        "inicio": "2019-12",
+        "fim": "2020-12",
+        "descricao": "Responsável por vendas e desenvolvimento de soluções inovadoras."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design",
+        "instituicao": "USP",
+        "ano": 2024
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [
+      "Certificação GCP 42",
+      "Certificação Vendas 42"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Português",
+        "nivel": "Nativo"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Básico"
+      }
+    ],
+    "areaInteresses": [
+      "Tecnologia",
+      "Agile"
+    ]
+  },
+  {
+    "id": 43,
+    "nome": "Xavier Queiroz",
+    "foto": "./images/foto43.jpg",
+    "cargo": "Scrum Master Educação",
+    "resumo": "Profissional experiente em Educação com foco em inovação e tecnologia. Especialista em Ruby e GraphQL.",
+    "localizacao": "Manaus/AM",
+    "area": "Educação",
+    "habilidadesTecnicas": [
+      "Ruby",
+      "GraphQL",
+      "Data Science",
+      "Angular",
+      "Java",
+      "Blockchain"
+    ],
+    "softSkills": [
+      "Criatividade",
+      "Adaptabilidade",
+      "Resolução de problemas",
+      "Liderança"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "cargo": "Scrum Master Sênior",
+        "inicio": "2018-03",
+        "fim": null,
+        "descricao": "Responsável por educação e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 2",
+        "cargo": "Scrum Master Pleno",
+        "inicio": "2019-02",
+        "fim": "2020-12",
+        "descricao": "Responsável por educação e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 3",
+        "cargo": "Scrum Master Pleno",
+        "inicio": "2020-11",
+        "fim": "2021-08",
+        "descricao": "Responsável por educação e desenvolvimento de soluções inovadoras."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "UNICAMP",
+        "ano": 2015
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 1",
+        "link": "https://projeto43-1.com",
+        "descricao": "Projeto focado em Ruby e GraphQL."
+      },
+      {
+        "titulo": "Projeto 2",
+        "link": "https://projeto43-2.com",
+        "descricao": "Projeto focado em Ruby e GraphQL."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Ruby 43",
+      "Certificação Educação 43"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Português",
+        "nivel": "Nativo"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Básico"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "Transformação Digital"
+    ]
+  },
+  {
+    "id": 44,
+    "nome": "Yara Sampaio",
+    "foto": "./images/foto44.jpg",
+    "cargo": "QA RH",
+    "resumo": "Profissional experiente em RH com foco em inovação e tecnologia. Especialista em AWS e Azure.",
+    "localizacao": "Fortaleza/CE",
+    "area": "RH",
+    "habilidadesTecnicas": [
+      "AWS",
+      "Azure",
+      "Swift",
+      "Ruby",
+      "Data Science"
+    ],
+    "softSkills": [
+      "Organização",
+      "Liderança"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "cargo": "QA Sênior",
+        "inicio": "2018-01",
+        "fim": null,
+        "descricao": "Responsável por rh e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 2",
+        "cargo": "QA Pleno",
+        "inicio": "2019-05",
+        "fim": "2020-02",
+        "descricao": "Responsável por rh e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 3",
+        "cargo": "QA Pleno",
+        "inicio": "2020-10",
+        "fim": "2021-03",
+        "descricao": "Responsável por rh e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 4",
+        "cargo": "QA Pleno",
+        "inicio": "2021-10",
+        "fim": "2022-12",
+        "descricao": "Responsável por rh e desenvolvimento de soluções inovadoras."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design",
+        "instituicao": "PUC",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 1",
+        "link": "https://projeto44-1.com",
+        "descricao": "Projeto focado em AWS e Azure."
+      },
+      {
+        "titulo": "Projeto 2",
+        "link": "https://projeto44-2.com",
+        "descricao": "Projeto focado em AWS e Azure."
+      }
+    ],
+    "certificacoes": [
+      "Certificação AWS 44",
+      "Certificação RH 44"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Português",
+        "nivel": "Nativo"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Cloud Computing",
+      "Sustentabilidade",
+      "Mobile",
+      "Transformação Digital"
+    ]
+  },
+  {
+    "id": 45,
+    "nome": "Zeca Torres",
+    "foto": "./images/foto45.jpg",
+    "cargo": "Designer Saúde",
+    "resumo": "Profissional experiente em Saúde com foco em inovação e tecnologia. Especialista em MongoDB e IoT.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Saúde",
+    "habilidadesTecnicas": [
+      "MongoDB",
+      "IoT",
+      "Spring Boot",
+      "Next.js",
+      "Node.js"
+    ],
+    "softSkills": [
+      "Pensamento crítico",
+      "Resolução de problemas",
+      "Comunicação"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "cargo": "Designer Sênior",
+        "inicio": "2018-07",
+        "fim": null,
+        "descricao": "Responsável por saúde e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 2",
+        "cargo": "Designer Pleno",
+        "inicio": "2019-01",
+        "fim": "2020-12",
+        "descricao": "Responsável por saúde e desenvolvimento de soluções inovadoras."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Análise e Desenvolvimento de Sistemas",
+        "instituicao": "UFMG",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 1",
+        "link": "https://projeto45-1.com",
+        "descricao": "Projeto focado em MongoDB e IoT."
+      }
+    ],
+    "certificacoes": [
+      "Certificação MongoDB 45",
+      "Certificação Saúde 45"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Português",
+        "nivel": "Nativo"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "IA",
+      "Transformação Digital",
+      "Tecnologia"
+    ]
+  },
+  {
+    "id": 46,
+    "nome": "Adriana Vieira",
+    "foto": "./images/foto46.jpg",
+    "cargo": "Scrum Master Finanças",
+    "resumo": "Profissional experiente em Finanças com foco em inovação e tecnologia. Especialista em Next.js e Blockchain.",
+    "localizacao": "Brasília/DF",
+    "area": "Finanças",
+    "habilidadesTecnicas": [
+      "Next.js",
+      "Blockchain",
+      "MongoDB",
+      "IoT",
+      "TypeScript",
+      "Flutter",
+      "Vue.js",
+      "Spring Boot",
+      "REST API"
+    ],
+    "softSkills": [
+      "Trabalho em equipe",
+      "Comunicação"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "cargo": "Scrum Master Sênior",
+        "inicio": "2018-07",
+        "fim": null,
+        "descricao": "Responsável por finanças e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 2",
+        "cargo": "Scrum Master Pleno",
+        "inicio": "2019-09",
+        "fim": "2020-08",
+        "descricao": "Responsável por finanças e desenvolvimento de soluções inovadoras."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia",
+        "instituicao": "PUC",
+        "ano": 2013
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 1",
+        "link": "https://projeto46-1.com",
+        "descricao": "Projeto focado em Next.js e Blockchain."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Next.js 46",
+      "Certificação Finanças 46"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Português",
+        "nivel": "Nativo"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Agile",
+      "Inovação"
+    ]
+  },
+  {
+    "id": 47,
+    "nome": "Bernardo Leal",
+    "foto": "./images/foto47.jpg",
+    "cargo": "QA Educação",
+    "resumo": "Profissional experiente em Educação com foco em inovação e tecnologia. Especialista em Machine Learning e REST API.",
+    "localizacao": "Campinas/SP",
+    "area": "Educação",
+    "habilidadesTecnicas": [
+      "Machine Learning",
+      "REST API",
+      "AWS",
+      "Blockchain",
+      "Flutter"
+    ],
+    "softSkills": [
+      "Adaptabilidade",
+      "Pensamento crítico",
+      "Resolução de problemas"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "cargo": "QA Sênior",
+        "inicio": "2018-05",
+        "fim": null,
+        "descricao": "Responsável por educação e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 2",
+        "cargo": "QA Pleno",
+        "inicio": "2019-03",
+        "fim": "2020-07",
+        "descricao": "Responsável por educação e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 3",
+        "cargo": "QA Pleno",
+        "inicio": "2020-08",
+        "fim": "2021-06",
+        "descricao": "Responsável por educação e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 4",
+        "cargo": "QA Pleno",
+        "inicio": "2021-10",
+        "fim": "2022-11",
+        "descricao": "Responsável por educação e desenvolvimento de soluções inovadoras."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Análise e Desenvolvimento de Sistemas",
+        "instituicao": "FGV",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 1",
+        "link": "https://projeto47-1.com",
+        "descricao": "Projeto focado em Machine Learning e REST API."
+      },
+      {
+        "titulo": "Projeto 2",
+        "link": "https://projeto47-2.com",
+        "descricao": "Projeto focado em Machine Learning e REST API."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Machine Learning 47",
+      "Certificação Educação 47"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Português",
+        "nivel": "Nativo"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Agile",
+      "Inovação"
+    ]
+  },
+  {
+    "id": 48,
+    "nome": "Cíntia Barros",
+    "foto": "./images/foto48.jpg",
+    "cargo": "Arquiteto Educação",
+    "resumo": "Profissional experiente em Educação com foco em inovação e tecnologia. Especialista em AWS e Ruby.",
+    "localizacao": "Brasília/DF",
+    "area": "Educação",
+    "habilidadesTecnicas": [
+      "AWS",
+      "Ruby",
+      "Next.js",
+      "Redis",
+      "Vue.js",
+      "React Native"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Empatia",
+      "Organização",
+      "Proatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "cargo": "Arquiteto Sênior",
+        "inicio": "2018-11",
+        "fim": null,
+        "descricao": "Responsável por educação e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 2",
+        "cargo": "Arquiteto Pleno",
+        "inicio": "2019-12",
+        "fim": "2020-07",
+        "descricao": "Responsável por educação e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 3",
+        "cargo": "Arquiteto Pleno",
+        "inicio": "2020-10",
+        "fim": "2021-01",
+        "descricao": "Responsável por educação e desenvolvimento de soluções inovadoras."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Software",
+        "instituicao": "FGV",
+        "ano": 2017
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 1",
+        "link": "https://projeto48-1.com",
+        "descricao": "Projeto focado em AWS e Ruby."
+      }
+    ],
+    "certificacoes": [
+      "Certificação AWS 48",
+      "Certificação Educação 48"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Português",
+        "nivel": "Nativo"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "UX/UI",
+      "IA"
+    ]
+  },
+  {
+    "id": 49,
+    "nome": "Diego Melo",
+    "foto": "./images/foto49.jpg",
+    "cargo": "Coordenador Finanças",
+    "resumo": "Profissional experiente em Finanças com foco em inovação e tecnologia. Especialista em JavaScript e AWS.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Finanças",
+    "habilidadesTecnicas": [
+      "JavaScript",
+      "AWS",
+      "React Native",
+      "Vue.js",
+      "PHP"
+    ],
+    "softSkills": [
+      "Trabalho em equipe",
+      "Liderança",
+      "Organização",
+      "Empatia"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "cargo": "Coordenador Sênior",
+        "inicio": "2018-04",
+        "fim": null,
+        "descricao": "Responsável por finanças e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 2",
+        "cargo": "Coordenador Pleno",
+        "inicio": "2019-08",
+        "fim": "2020-02",
+        "descricao": "Responsável por finanças e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 3",
+        "cargo": "Coordenador Pleno",
+        "inicio": "2020-11",
+        "fim": "2021-06",
+        "descricao": "Responsável por finanças e desenvolvimento de soluções inovadoras."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "UNICAMP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 1",
+        "link": "https://projeto49-1.com",
+        "descricao": "Projeto focado em JavaScript e AWS."
+      },
+      {
+        "titulo": "Projeto 2",
+        "link": "https://projeto49-2.com",
+        "descricao": "Projeto focado em JavaScript e AWS."
+      }
+    ],
+    "certificacoes": [
+      "Certificação JavaScript 49",
+      "Certificação Finanças 49"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Português",
+        "nivel": "Nativo"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "UX/UI",
+      "Empreendedorismo",
+      "Mobile"
+    ]
+  },
+  {
+    "id": 50,
+    "nome": "Elisa Nogueira",
+    "foto": "./images/foto50.jpg",
+    "cargo": "Coordenador Saúde",
+    "resumo": "Profissional experiente em Saúde com foco em inovação e tecnologia. Especialista em Flutter e Kotlin.",
+    "localizacao": "Porto Alegre/RS",
+    "area": "Saúde",
+    "habilidadesTecnicas": [
+      "Flutter",
+      "Kotlin",
+      "Django",
+      "REST API",
+      "GraphQL",
+      "MongoDB",
+      "Swift",
+      "Go"
+    ],
+    "softSkills": [
+      "Proatividade",
+      "Resolução de problemas",
+      "Liderança"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "cargo": "Coordenador Sênior",
+        "inicio": "2018-01",
+        "fim": null,
+        "descricao": "Responsável por saúde e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 2",
+        "cargo": "Coordenador Pleno",
+        "inicio": "2019-03",
+        "fim": "2020-05",
+        "descricao": "Responsável por saúde e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 3",
+        "cargo": "Coordenador Pleno",
+        "inicio": "2020-01",
+        "fim": "2021-02",
+        "descricao": "Responsável por saúde e desenvolvimento de soluções inovadoras."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia",
+        "instituicao": "Insper",
+        "ano": 2019
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [
+      "Certificação Flutter 50",
+      "Certificação Saúde 50"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Português",
+        "nivel": "Nativo"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Fluente"
+      }
+    ],
+    "areaInteresses": [
+      "Sustentabilidade",
+      "Tecnologia"
+    ]
+  },
+  {
+    "id": 51,
+    "nome": "Fábio Guimarães",
+    "foto": "./images/foto51.jpg",
+    "cargo": "Engenheiro TI",
+    "resumo": "Profissional experiente em TI com foco em inovação e tecnologia. Especialista em Kubernetes e PHP.",
+    "localizacao": "Goiânia/GO",
+    "area": "TI",
+    "habilidadesTecnicas": [
+      "Kubernetes",
+      "PHP",
+      "React Native",
+      "Django",
+      "Swift"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Pensamento crítico",
+      "Proatividade",
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "cargo": "Engenheiro Sênior",
+        "inicio": "2018-09",
+        "fim": null,
+        "descricao": "Responsável por ti e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 2",
+        "cargo": "Engenheiro Pleno",
+        "inicio": "2019-07",
+        "fim": "2020-11",
+        "descricao": "Responsável por ti e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 3",
+        "cargo": "Engenheiro Pleno",
+        "inicio": "2020-11",
+        "fim": "2021-12",
+        "descricao": "Responsável por ti e desenvolvimento de soluções inovadoras."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia",
+        "instituicao": "UFMG",
+        "ano": 2021
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 1",
+        "link": "https://projeto51-1.com",
+        "descricao": "Projeto focado em Kubernetes e PHP."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Kubernetes 51",
+      "Certificação TI 51"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Português",
+        "nivel": "Nativo"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Cloud Computing",
+      "Transformação Digital",
+      "UX/UI",
+      "IA"
+    ]
+  },
+  {
+    "id": 52,
+    "nome": "Gabriela Peixoto",
+    "foto": "./images/foto52.jpg",
+    "cargo": "Product Manager Design",
+    "resumo": "Profissional experiente em Design com foco em inovação e tecnologia. Especialista em Django e Kubernetes.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Design",
+    "habilidadesTecnicas": [
+      "Django",
+      "Kubernetes",
+      "Flutter",
+      "Redis",
+      "MongoDB",
+      "React Native",
+      "Node.js"
+    ],
+    "softSkills": [
+      "Organização",
+      "Comunicação",
+      "Adaptabilidade",
+      "Criatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "cargo": "Product Manager Sênior",
+        "inicio": "2018-10",
+        "fim": null,
+        "descricao": "Responsável por design e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 2",
+        "cargo": "Product Manager Pleno",
+        "inicio": "2019-03",
+        "fim": "2020-07",
+        "descricao": "Responsável por design e desenvolvimento de soluções inovadoras."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design",
+        "instituicao": "PUC",
+        "ano": 2014
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [
+      "Certificação Django 52",
+      "Certificação Design 52"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Português",
+        "nivel": "Nativo"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Empreendedorismo",
+      "Sustentabilidade"
+    ]
+  },
+  {
+    "id": 53,
+    "nome": "Hugo Câmara",
+    "foto": "./images/foto53.jpg",
+    "cargo": "Engenheiro Finanças",
+    "resumo": "Profissional experiente em Finanças com foco em inovação e tecnologia. Especialista em Spring Boot e Java.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Finanças",
+    "habilidadesTecnicas": [
+      "Spring Boot",
+      "Java",
+      "C#",
+      "Machine Learning",
+      "Docker",
+      "Data Science",
+      "React Native",
+      "Python"
+    ],
+    "softSkills": [
+      "Organização",
+      "Liderança",
+      "Comunicação"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "cargo": "Engenheiro Sênior",
+        "inicio": "2018-11",
+        "fim": null,
+        "descricao": "Responsável por finanças e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 2",
+        "cargo": "Engenheiro Pleno",
+        "inicio": "2019-10",
+        "fim": "2020-07",
+        "descricao": "Responsável por finanças e desenvolvimento de soluções inovadoras."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Software",
+        "instituicao": "Insper",
+        "ano": 2011
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [
+      "Certificação Spring Boot 53",
+      "Certificação Finanças 53"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Português",
+        "nivel": "Nativo"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Fluente"
+      }
+    ],
+    "areaInteresses": [
+      "Tecnologia",
+      "Cloud Computing",
+      "Sustentabilidade"
+    ]
+  },
+  {
+    "id": 54,
+    "nome": "Ingrid Bento",
+    "foto": "./images/foto54.jpg",
+    "cargo": "QA Marketing",
+    "resumo": "Profissional experiente em Marketing com foco em inovação e tecnologia. Especialista em PHP e MySQL.",
+    "localizacao": "São Paulo/SP",
+    "area": "Marketing",
+    "habilidadesTecnicas": [
+      "PHP",
+      "MySQL",
+      "Kubernetes",
+      "Express",
+      "Redis"
+    ],
+    "softSkills": [
+      "Trabalho em equipe",
+      "Comunicação",
+      "Adaptabilidade",
+      "Liderança"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "cargo": "QA Sênior",
+        "inicio": "2018-03",
+        "fim": null,
+        "descricao": "Responsável por marketing e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 2",
+        "cargo": "QA Pleno",
+        "inicio": "2019-04",
+        "fim": "2020-11",
+        "descricao": "Responsável por marketing e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 3",
+        "cargo": "QA Pleno",
+        "inicio": "2020-02",
+        "fim": "2021-05",
+        "descricao": "Responsável por marketing e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 4",
+        "cargo": "QA Pleno",
+        "inicio": "2021-07",
+        "fim": "2022-09",
+        "descricao": "Responsável por marketing e desenvolvimento de soluções inovadoras."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia",
+        "instituicao": "UFMG",
+        "ano": 2019
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [
+      "Certificação PHP 54",
+      "Certificação Marketing 54"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Português",
+        "nivel": "Nativo"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Fluente"
+      }
+    ],
+    "areaInteresses": [
+      "Sustentabilidade",
+      "Agile",
+      "UX/UI"
+    ]
+  },
+  {
+    "id": 55,
+    "nome": "Jorge Medeiros",
+    "foto": "./images/foto55.jpg",
+    "cargo": "Tech Lead Saúde",
+    "resumo": "Profissional experiente em Saúde com foco em inovação e tecnologia. Especialista em TypeScript e Java.",
+    "localizacao": "São Paulo/SP",
+    "area": "Saúde",
+    "habilidadesTecnicas": [
+      "TypeScript",
+      "Java",
+      "Blockchain",
+      "Redis",
+      "React Native",
+      "JavaScript",
+      "Ruby",
+      "Django"
+    ],
+    "softSkills": [
+      "Organização",
+      "Comunicação",
+      "Trabalho em equipe",
+      "Empatia",
+      "Resolução de problemas"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "cargo": "Tech Lead Sênior",
+        "inicio": "2018-02",
+        "fim": null,
+        "descricao": "Responsável por saúde e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 2",
+        "cargo": "Tech Lead Pleno",
+        "inicio": "2019-08",
+        "fim": "2020-01",
+        "descricao": "Responsável por saúde e desenvolvimento de soluções inovadoras."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia",
+        "instituicao": "Insper",
+        "ano": 2019
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [
+      "Certificação TypeScript 55",
+      "Certificação Saúde 55"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Português",
+        "nivel": "Nativo"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Sustentabilidade",
+      "Tecnologia"
+    ]
+  },
+  {
+    "id": 56,
+    "nome": "Larissa Falcão",
+    "foto": "./images/foto56.jpg",
+    "cargo": "Designer Engenharia",
+    "resumo": "Profissional experiente em Engenharia com foco em inovação e tecnologia. Especialista em MongoDB e REST API.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Engenharia",
+    "habilidadesTecnicas": [
+      "MongoDB",
+      "REST API",
+      "Python",
+      "JavaScript",
+      "React",
+      "MySQL",
+      "Docker"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Adaptabilidade",
+      "Trabalho em equipe"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "cargo": "Designer Sênior",
+        "inicio": "2018-02",
+        "fim": null,
+        "descricao": "Responsável por engenharia e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 2",
+        "cargo": "Designer Pleno",
+        "inicio": "2019-02",
+        "fim": "2020-02",
+        "descricao": "Responsável por engenharia e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 3",
+        "cargo": "Designer Pleno",
+        "inicio": "2020-10",
+        "fim": "2021-12",
+        "descricao": "Responsável por engenharia e desenvolvimento de soluções inovadoras."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design",
+        "instituicao": "UNICAMP",
+        "ano": 2011
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 1",
+        "link": "https://projeto56-1.com",
+        "descricao": "Projeto focado em MongoDB e REST API."
+      },
+      {
+        "titulo": "Projeto 2",
+        "link": "https://projeto56-2.com",
+        "descricao": "Projeto focado em MongoDB e REST API."
+      }
+    ],
+    "certificacoes": [
+      "Certificação MongoDB 56",
+      "Certificação Engenharia 56"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Português",
+        "nivel": "Nativo"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Cloud Computing",
+      "Inovação",
+      "UX/UI",
+      "Sustentabilidade"
+    ]
+  },
+  {
+    "id": 57,
+    "nome": "Marcos Dantas",
+    "foto": "./images/foto57.jpg",
+    "cargo": "Scrum Master Saúde",
+    "resumo": "Profissional experiente em Saúde com foco em inovação e tecnologia. Especialista em React Native e GraphQL.",
+    "localizacao": "Campinas/SP",
+    "area": "Saúde",
+    "habilidadesTecnicas": [
+      "React Native",
+      "GraphQL",
+      "TypeScript",
+      "Spring Boot",
+      "Java",
+      "Python",
+      "Docker",
+      "AWS"
+    ],
+    "softSkills": [
+      "Trabalho em equipe",
+      "Proatividade",
+      "Liderança",
+      "Empatia"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "cargo": "Scrum Master Sênior",
+        "inicio": "2018-03",
+        "fim": null,
+        "descricao": "Responsável por saúde e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 2",
+        "cargo": "Scrum Master Pleno",
+        "inicio": "2019-05",
+        "fim": "2020-09",
+        "descricao": "Responsável por saúde e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 3",
+        "cargo": "Scrum Master Pleno",
+        "inicio": "2020-11",
+        "fim": "2021-12",
+        "descricao": "Responsável por saúde e desenvolvimento de soluções inovadoras."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "USP",
+        "ano": 2012
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [
+      "Certificação React Native 57",
+      "Certificação Saúde 57"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Português",
+        "nivel": "Nativo"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Tecnologia",
+      "Agile",
+      "Sustentabilidade"
+    ]
+  },
+  {
+    "id": 58,
+    "nome": "Natália Paiva",
+    "foto": "./images/foto58.jpg",
+    "cargo": "DevOps Negócios",
+    "resumo": "Profissional experiente em Negócios com foco em inovação e tecnologia. Especialista em MySQL e Data Science.",
+    "localizacao": "Salvador/BA",
+    "area": "Negócios",
+    "habilidadesTecnicas": [
+      "MySQL",
+      "Data Science",
+      "Kotlin",
+      "Redis",
+      "REST API",
+      "C#"
+    ],
+    "softSkills": [
+      "Adaptabilidade",
+      "Resolução de problemas",
+      "Pensamento crítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "cargo": "DevOps Sênior",
+        "inicio": "2018-04",
+        "fim": null,
+        "descricao": "Responsável por negócios e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 2",
+        "cargo": "DevOps Pleno",
+        "inicio": "2019-09",
+        "fim": "2020-02",
+        "descricao": "Responsável por negócios e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 3",
+        "cargo": "DevOps Pleno",
+        "inicio": "2020-09",
+        "fim": "2021-03",
+        "descricao": "Responsável por negócios e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 4",
+        "cargo": "DevOps Pleno",
+        "inicio": "2021-11",
+        "fim": "2022-07",
+        "descricao": "Responsável por negócios e desenvolvimento de soluções inovadoras."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Análise e Desenvolvimento de Sistemas",
+        "instituicao": "PUC",
+        "ano": 2022
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 1",
+        "link": "https://projeto58-1.com",
+        "descricao": "Projeto focado em MySQL e Data Science."
+      }
+    ],
+    "certificacoes": [
+      "Certificação MySQL 58",
+      "Certificação Negócios 58"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Português",
+        "nivel": "Nativo"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "IA",
+      "Transformação Digital",
+      "UX/UI"
+    ]
+  },
+  {
+    "id": 59,
+    "nome": "Orlando Siqueira",
+    "foto": "./images/foto59.jpg",
+    "cargo": "QA Educação",
+    "resumo": "Profissional experiente em Educação com foco em inovação e tecnologia. Especialista em TypeScript e MySQL.",
+    "localizacao": "São Paulo/SP",
+    "area": "Educação",
+    "habilidadesTecnicas": [
+      "TypeScript",
+      "MySQL",
+      "React",
+      "Next.js",
+      "React Native",
+      "MongoDB"
+    ],
+    "softSkills": [
+      "Trabalho em equipe",
+      "Empatia",
+      "Comunicação"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "cargo": "QA Sênior",
+        "inicio": "2018-03",
+        "fim": null,
+        "descricao": "Responsável por educação e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 2",
+        "cargo": "QA Pleno",
+        "inicio": "2019-06",
+        "fim": "2020-01",
+        "descricao": "Responsável por educação e desenvolvimento de soluções inovadoras."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "FGV",
+        "ano": 2016
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [
+      "Certificação TypeScript 59",
+      "Certificação Educação 59"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Português",
+        "nivel": "Nativo"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Básico"
+      }
+    ],
+    "areaInteresses": [
+      "Agile",
+      "Cloud Computing",
+      "IA"
+    ]
+  },
+  {
+    "id": 60,
+    "nome": "Priscila Vasconcelos",
+    "foto": "./images/foto60.jpg",
+    "cargo": "Product Manager Saúde",
+    "resumo": "Profissional experiente em Saúde com foco em inovação e tecnologia. Especialista em Node.js e REST API.",
+    "localizacao": "Brasília/DF",
+    "area": "Saúde",
+    "habilidadesTecnicas": [
+      "Node.js",
+      "REST API",
+      "Redis",
+      "Java",
+      "Azure",
+      "Docker",
+      "React Native"
+    ],
+    "softSkills": [
+      "Pensamento crítico",
+      "Comunicação",
+      "Criatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "cargo": "Product Manager Sênior",
+        "inicio": "2018-01",
+        "fim": null,
+        "descricao": "Responsável por saúde e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 2",
+        "cargo": "Product Manager Pleno",
+        "inicio": "2019-12",
+        "fim": "2020-04",
+        "descricao": "Responsável por saúde e desenvolvimento de soluções inovadoras."
+      },
+      {
+        "empresa": "Empresa 3",
+        "cargo": "Product Manager Pleno",
+        "inicio": "2020-03",
+        "fim": "2021-03",
+        "descricao": "Responsável por saúde e desenvolvimento de soluções inovadoras."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "Insper",
+        "ano": 2013
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 1",
+        "link": "https://projeto60-1.com",
+        "descricao": "Projeto focado em Node.js e REST API."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Node.js 60",
+      "Certificação Saúde 60"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Português",
+        "nivel": "Nativo"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Fluente"
+      }
+    ],
+    "areaInteresses": [
+      "Mobile",
+      "Empreendedorismo"
+    ]
+  }
+]
