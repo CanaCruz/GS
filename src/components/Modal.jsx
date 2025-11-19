@@ -1,6 +1,98 @@
+import { useState, useEffect } from 'react'
+import { useAuth } from '../context/AuthContext'
+import Toast from './Toast'
+import MessageModal from './MessageModal'
+
 // Componente Modal Premium com design futurista
 const Modal = ({ profile, isOpen, onClose }) => {
+  const { user } = useAuth()
+  const [showToast, setShowToast] = useState(false)
+  const [toastMessage, setToastMessage] = useState('')
+  const [toastType, setToastType] = useState('success')
+  const [isMessageModalOpen, setIsMessageModalOpen] = useState(false)
+  const [isRecommended, setIsRecommended] = useState(false)
+
+  // Verificar se o perfil já foi recomendado quando o modal abre
+  useEffect(() => {
+    if (isOpen && profile && user) {
+      try {
+        const recommendations = JSON.parse(localStorage.getItem('recommendations') || '[]')
+        const userId = user.id || user.email
+        const profileId = profile.id || profile.nome
+        const alreadyRecommended = recommendations.find(
+          r => r.userId === userId && r.profileId === profileId
+        )
+        setIsRecommended(!!alreadyRecommended)
+      } catch (error) {
+        console.error('Erro ao verificar recomendação:', error)
+        setIsRecommended(false)
+      }
+    } else {
+      setIsRecommended(false)
+    }
+  }, [isOpen, profile, user])
+
   if (!isOpen || !profile) return null
+
+  const handleRecommend = () => {
+    if (!user) {
+      setToastMessage('Por favor, faça login para recomendar profissionais.')
+      setToastType('error')
+      setShowToast(true)
+      return
+    }
+
+    // Salvar recomendação no localStorage
+    try {
+      const recommendations = JSON.parse(localStorage.getItem('recommendations') || '[]')
+      const newRecommendation = {
+        id: Date.now(),
+        userId: user.id || user.email,
+        userName: user.name || user.email,
+        profileId: profile.id || profile.nome,
+        profileName: profile.nome,
+        timestamp: new Date().toISOString()
+      }
+      
+      // Verificar se já recomendou este perfil
+      const alreadyRecommendedIndex = recommendations.findIndex(
+        r => r.userId === newRecommendation.userId && 
+             r.profileId === newRecommendation.profileId
+      )
+      
+      if (alreadyRecommendedIndex !== -1) {
+        // Remover recomendação
+        recommendations.splice(alreadyRecommendedIndex, 1)
+        localStorage.setItem('recommendations', JSON.stringify(recommendations))
+        setToastMessage(`Recomendação de ${profile.nome} removida com sucesso!`)
+        setToastType('success')
+        setIsRecommended(false)
+      } else {
+        // Adicionar recomendação
+        recommendations.push(newRecommendation)
+        localStorage.setItem('recommendations', JSON.stringify(recommendations))
+        setToastMessage(`${profile.nome} foi recomendado com sucesso!`)
+        setToastType('success')
+        setIsRecommended(true)
+      }
+      setShowToast(true)
+    } catch (error) {
+      console.error('Erro ao recomendar:', error)
+      setToastMessage('Erro ao recomendar. Tente novamente.')
+      setToastType('error')
+      setShowToast(true)
+    }
+  }
+
+  const handleSendMessage = () => {
+    if (!user) {
+      setToastMessage('Por favor, faça login para enviar mensagens.')
+      setToastType('error')
+      setShowToast(true)
+      return
+    }
+    setIsMessageModalOpen(true)
+  }
 
   return (
     <div
@@ -61,14 +153,24 @@ const Modal = ({ profile, isOpen, onClose }) => {
               </div>
               
               {/* Botões de ação */}
-              <div className="flex gap-4">
-                <button className="px-6 py-3 bg-gradient-to-r from-indigo-600 to-slate-600 text-white font-bold rounded-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center gap-2">
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="flex gap-4 flex-wrap">
+                <button 
+                  onClick={handleRecommend}
+                  className={`px-6 py-3 font-bold rounded-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center gap-2 ${
+                    isRecommended 
+                      ? 'bg-gradient-to-r from-red-500 to-rose-600 text-white' 
+                      : 'bg-gradient-to-r from-indigo-600 to-slate-600 text-white'
+                  }`}
+                >
+                  <svg className={`w-5 h-5 ${isRecommended ? 'fill-current' : ''}`} fill={isRecommended ? 'currentColor' : 'none'} stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
                   </svg>
                   Recomendar
                 </button>
-                <button className="px-6 py-3 bg-gradient-to-r from-indigo-600 to-slate-600 text-white font-bold rounded-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center gap-2">
+                <button 
+                  onClick={handleSendMessage}
+                  className="px-6 py-3 bg-gradient-to-r from-indigo-600 to-slate-600 text-white font-bold rounded-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center gap-2"
+                >
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
                   </svg>
@@ -322,6 +424,21 @@ const Modal = ({ profile, isOpen, onClose }) => {
           )}
         </div>
       </div>
+
+      {/* Toast de Notificação */}
+      <Toast
+        message={toastMessage}
+        type={toastType}
+        isVisible={showToast}
+        onClose={() => setShowToast(false)}
+      />
+
+      {/* Modal de Mensagem */}
+      <MessageModal
+        profile={profile}
+        isOpen={isMessageModalOpen}
+        onClose={() => setIsMessageModalOpen(false)}
+      />
     </div>
   )
 }

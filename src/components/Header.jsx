@@ -188,7 +188,13 @@ const Header = ({ onOpenLogin, onOpenSignup, currentPage, setCurrentPage }) => {
                       <p className="text-sm text-gray-600 dark:text-gray-400">{user.email}</p>
                     </div>
                     <div className="p-2">
-                      <button className="w-full text-left px-4 py-3 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-xl transition-colors font-semibold">
+                      <button 
+                        onClick={() => {
+                          setCurrentPage('perfil')
+                          setShowUserMenu(false)
+                        }}
+                        className="w-full text-left px-4 py-3 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-xl transition-colors font-semibold"
+                      >
                         Meu Perfil
                       </button>
                       <button className="w-full text-left px-4 py-3 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-xl transition-colors font-semibold">

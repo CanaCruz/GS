@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import { AuthProvider, useAuth } from './context/AuthContext'
 import Home from './pages/Home'
 import Vagas from './pages/Vagas'
+import Perfil from './pages/Perfil'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import DarkModeToggle from './components/DarkModeToggle'
@@ -67,7 +68,7 @@ function AppContent() {
       />
       <main className="flex-grow relative z-10">
         <DarkModeToggle darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
-        {currentPage === 'home' ? <Home /> : <Vagas />}
+        {currentPage === 'home' ? <Home /> : currentPage === 'vagas' ? <Vagas /> : <Perfil />}
       </main>
       <Footer />
 
