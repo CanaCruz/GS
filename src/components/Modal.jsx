@@ -23,6 +23,33 @@ const Modal = ({ profile, isOpen, onClose }) => {
           r => r.userId === userId && r.profileId === profileId
         )
         setIsRecommended(!!alreadyRecommended)
+
+        // Registrar visualização do perfil
+        const viewHistory = JSON.parse(localStorage.getItem('viewHistory') || '[]')
+        const userIdForView = user.id || user.email
+        const profileIdForView = profile.id || profile.nome
+        
+        // Verificar se já foi visualizado hoje (evitar duplicatas)
+        const today = new Date().toDateString()
+        const alreadyViewed = viewHistory.find(
+          v => v.userId === userIdForView && 
+               v.profileId === profileIdForView &&
+               new Date(v.timestamp).toDateString() === today
+        )
+
+        if (!alreadyViewed) {
+          const newView = {
+            id: Date.now(),
+            userId: userIdForView,
+            profileId: profileIdForView,
+            profileName: profile.nome,
+            timestamp: new Date().toISOString()
+          }
+          viewHistory.unshift(newView)
+          // Manter apenas os últimos 100 visualizações
+          const limitedHistory = viewHistory.slice(0, 100)
+          localStorage.setItem('viewHistory', JSON.stringify(limitedHistory))
+        }
       } catch (error) {
         console.error('Erro ao verificar recomendação:', error)
         setIsRecommended(false)
@@ -92,6 +119,135 @@ const Modal = ({ profile, isOpen, onClose }) => {
       return
     }
     setIsMessageModalOpen(true)
+  }
+
+  const handleShare = async () => {
+    const profileUrl = `${window.location.origin}${window.location.pathname}#profile-${profile.id || profile.nome}`
+    
+    try {
+      // Tentar usar a API de compartilhamento nativa (se disponível)
+      if (navigator.share) {
+        await navigator.share({
+          title: `Perfil de ${profile.nome}`,
+          text: `Confira o perfil de ${profile.nome} - ${profile.cargo} na plataforma Futuro do Trabalho`,
+          url: profileUrl
+        })
+        setToastMessage('Perfil compartilhado com sucesso!')
+        setToastType('success')
+        setShowToast(true)
+      } else {
+        // Fallback: copiar para a área de transferência
+        await navigator.clipboard.writeText(profileUrl)
+        setToastMessage('Link do perfil copiado para a área de transferência!')
+        setToastType('success')
+        setShowToast(true)
+      }
+    } catch (error) {
+      // Se o usuário cancelar o compartilhamento, não mostrar erro
+      if (error.name !== 'AbortError') {
+        // Fallback: copiar para a área de transferência
+        try {
+          await navigator.clipboard.writeText(profileUrl)
+          setToastMessage('Link do perfil copiado para a área de transferência!')
+          setToastType('success')
+          setShowToast(true)
+        } catch (clipboardError) {
+          setToastMessage('Erro ao compartilhar. Tente novamente.')
+          setToastType('error')
+          setShowToast(true)
+        }
+      }
+    }
+  }
+
+  const handleExportPDF = () => {
+    // Criar conteúdo HTML para impressão/PDF
+    const printWindow = window.open('', '_blank')
+    const htmlContent = `
+      <!DOCTYPE html>
+      <html>
+        <head>
+          <title>Perfil - ${profile.nome}</title>
+          <style>
+            body { font-family: Arial, sans-serif; padding: 20px; color: #333; }
+            h1 { color: #4f46e5; border-bottom: 3px solid #4f46e5; padding-bottom: 10px; }
+            h2 { color: #6366f1; margin-top: 30px; }
+            .section { margin-bottom: 30px; }
+            .info { margin: 10px 0; }
+            .skills { display: flex; flex-wrap: wrap; gap: 10px; margin: 10px 0; }
+            .skill { background: #e0e7ff; padding: 5px 15px; border-radius: 20px; }
+            .experience, .education { background: #f3f4f6; padding: 15px; margin: 10px 0; border-radius: 8px; }
+            @media print { .no-print { display: none; } }
+          </style>
+        </head>
+        <body>
+          <h1>${profile.nome}</h1>
+          <div class="info"><strong>Cargo:</strong> ${profile.cargo}</div>
+          <div class="info"><strong>Localização:</strong> ${profile.localizacao}</div>
+          <div class="info"><strong>Área:</strong> ${profile.area}</div>
+          
+          ${profile.resumo ? `<div class="section"><h2>Sobre</h2><p>${profile.resumo}</p></div>` : ''}
+          
+          <div class="section">
+            <h2>Habilidades Técnicas</h2>
+            <div class="skills">
+              ${profile.habilidadesTecnicas.map(skill => `<span class="skill">${skill}</span>`).join('')}
+            </div>
+          </div>
+          
+          ${profile.softSkills && profile.softSkills.length > 0 ? `
+            <div class="section">
+              <h2>Soft Skills</h2>
+              <div class="skills">
+                ${profile.softSkills.map(skill => `<span class="skill">${skill}</span>`).join('')}
+              </div>
+            </div>
+          ` : ''}
+          
+          ${profile.experiencias && profile.experiencias.length > 0 ? `
+            <div class="section">
+              <h2>Experiências Profissionais</h2>
+              ${profile.experiencias.map(exp => `
+                <div class="experience">
+                  <strong>${exp.cargo}</strong> - ${exp.empresa}<br>
+                  <small>${exp.inicio} - ${exp.fim || 'Atual'}</small>
+                  ${exp.descricao ? `<p>${exp.descricao}</p>` : ''}
+                </div>
+              `).join('')}
+            </div>
+          ` : ''}
+          
+          ${profile.formacao && profile.formacao.length > 0 ? `
+            <div class="section">
+              <h2>Formação Acadêmica</h2>
+              ${profile.formacao.map(form => `
+                <div class="education">
+                  <strong>${form.curso}</strong><br>
+                  <small>${form.instituicao} • ${form.ano}</small>
+                </div>
+              `).join('')}
+            </div>
+          ` : ''}
+          
+          <div style="margin-top: 40px; text-align: center; color: #666; font-size: 12px;">
+            Gerado pela plataforma Futuro do Trabalho - ${new Date().toLocaleDateString('pt-BR')}
+          </div>
+        </body>
+      </html>
+    `
+    
+    printWindow.document.write(htmlContent)
+    printWindow.document.close()
+    printWindow.focus()
+    
+    // Aguardar um pouco antes de imprimir para garantir que o conteúdo foi carregado
+    setTimeout(() => {
+      printWindow.print()
+    }, 250)
+    
+    setToastMessage('Abrindo opções de impressão/PDF...')
+    setToastType('success')
+    setShowToast(true)
   }
 
   return (
@@ -175,6 +331,24 @@ const Modal = ({ profile, isOpen, onClose }) => {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
                   </svg>
                   Enviar Mensagem
+                </button>
+                <button 
+                  onClick={handleShare}
+                  className="px-6 py-3 bg-gradient-to-r from-green-500 to-emerald-600 text-white font-bold rounded-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center gap-2"
+                >
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z" />
+                  </svg>
+                  Compartilhar
+                </button>
+                <button 
+                  onClick={handleExportPDF}
+                  className="px-6 py-3 bg-gradient-to-r from-purple-500 to-pink-600 text-white font-bold rounded-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center gap-2"
+                >
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                  </svg>
+                  Exportar PDF
                 </button>
               </div>
             </div>

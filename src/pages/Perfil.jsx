@@ -7,12 +7,15 @@ const Perfil = () => {
   const { user } = useAuth()
   const [recommendations, setRecommendations] = useState([])
   const [recommendedProfiles, setRecommendedProfiles] = useState([])
+  const [viewHistory, setViewHistory] = useState([])
+  const [viewedProfiles, setViewedProfiles] = useState([])
   const [selectedProfile, setSelectedProfile] = useState(null)
   const [isModalOpen, setIsModalOpen] = useState(false)
 
   useEffect(() => {
     if (user) {
       loadRecommendations()
+      loadViewHistory()
     }
   }, [user])
 
@@ -42,6 +45,54 @@ const Perfil = () => {
     }
   }
 
+  const loadViewHistory = () => {
+    try {
+      const userId = user.id || user.email
+      const allViews = JSON.parse(localStorage.getItem('viewHistory') || '[]')
+      const userViews = allViews.filter(v => v.userId === userId)
+      setViewHistory(userViews)
+
+      // Buscar os perfis completos dos profissionais visualizados
+      const profiles = userViews.map(view => {
+        const profile = profilesData.find(
+          p => (p.id && p.id.toString() === view.profileId) || 
+               (p.nome === view.profileName)
+        )
+        return profile ? { ...profile, viewedAt: view.timestamp } : null
+      }).filter(Boolean)
+
+      // Remover duplicatas (manter apenas a visualização mais recente de cada perfil)
+      const uniqueProfiles = []
+      const seenIds = new Set()
+      profiles.forEach(profile => {
+        const profileId = profile.id || profile.nome
+        if (!seenIds.has(profileId)) {
+          seenIds.add(profileId)
+          uniqueProfiles.push(profile)
+        }
+      })
+
+      // Ordenar por data de visualização (mais recente primeiro)
+      uniqueProfiles.sort((a, b) => new Date(b.viewedAt) - new Date(a.viewedAt))
+      setViewedProfiles(uniqueProfiles)
+    } catch (error) {
+      console.error('Erro ao carregar histórico de visualizações:', error)
+    }
+  }
+
+  const clearViewHistory = () => {
+    try {
+      const userId = user.id || user.email
+      const allViews = JSON.parse(localStorage.getItem('viewHistory') || '[]')
+      const otherUsersViews = allViews.filter(v => v.userId !== userId)
+      localStorage.setItem('viewHistory', JSON.stringify(otherUsersViews))
+      setViewHistory([])
+      setViewedProfiles([])
+    } catch (error) {
+      console.error('Erro ao limpar histórico:', error)
+    }
+  }
+
   const handleCardClick = (profile) => {
     setSelectedProfile(profile)
     setIsModalOpen(true)
@@ -50,8 +101,9 @@ const Perfil = () => {
   const handleCloseModal = () => {
     setIsModalOpen(false)
     setSelectedProfile(null)
-    // Recarregar recomendações após fechar o modal (caso tenha removido alguma)
+    // Recarregar recomendações e histórico após fechar o modal
     loadRecommendations()
+    loadViewHistory()
   }
 
   const formatDate = (dateString) => {
@@ -200,6 +252,120 @@ const Perfil = () => {
                     </div>
                     <span className="text-xs text-gray-500 dark:text-gray-500">
                       {formatDate(profile.recommendedAt)}
+                    </span>
+                  </div>
+                </div>
+              ))}
+            </div>
+          )}
+        </div>
+
+        {/* Seção de Histórico de Visualizações */}
+        <div className="mb-8">
+          <div className="flex items-center justify-between mb-6">
+            <h2 className="text-3xl font-black text-gray-900 dark:text-white flex items-center gap-3">
+              <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-indigo-500 to-slate-600 flex items-center justify-center shadow-lg">
+                <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                </svg>
+              </div>
+              Visualizados Recentemente
+            </h2>
+            <div className="flex items-center gap-3">
+              <span className="px-4 py-2 bg-gradient-to-r from-indigo-500 to-slate-600 text-white rounded-full text-sm font-bold shadow-lg">
+                {viewedProfiles.length} {viewedProfiles.length === 1 ? 'visualização' : 'visualizações'}
+              </span>
+              {viewedProfiles.length > 0 && (
+                <button
+                  onClick={clearViewHistory}
+                  className="px-4 py-2 bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-xl text-sm font-bold hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors"
+                >
+                  Limpar Histórico
+                </button>
+              )}
+            </div>
+          </div>
+
+          {viewedProfiles.length === 0 ? (
+            <div className="bg-white/95 dark:bg-gray-900/95 backdrop-blur-xl rounded-2xl shadow-xl border border-gray-200/50 dark:border-gray-700/50 p-12 text-center">
+              <div className="w-24 h-24 mx-auto mb-6 rounded-full bg-gradient-to-br from-gray-100 to-gray-200 dark:from-gray-800 dark:to-gray-900 flex items-center justify-center">
+                <svg className="w-12 h-12 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">
+                Nenhuma visualização ainda
+              </h3>
+              <p className="text-gray-600 dark:text-gray-400">
+                Os perfis que você visualizar aparecerão aqui
+              </p>
+            </div>
+          ) : (
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {viewedProfiles.slice(0, 12).map((profile) => (
+                <div
+                  key={profile.id || profile.nome}
+                  onClick={() => handleCardClick(profile)}
+                  className="bg-white/95 dark:bg-gray-900/95 backdrop-blur-xl rounded-2xl shadow-xl border border-gray-200/50 dark:border-gray-700/50 p-6 cursor-pointer hover:shadow-2xl hover:scale-105 transition-all duration-300 group"
+                >
+                  <div className="flex items-start gap-4 mb-4">
+                    <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-indigo-500 via-indigo-600 to-slate-600 flex items-center justify-center flex-shrink-0 shadow-lg group-hover:shadow-xl transition-shadow">
+                      {profile.foto ? (
+                        <img
+                          src={profile.foto}
+                          alt={profile.nome}
+                          className="w-full h-full rounded-xl object-cover"
+                          onError={(e) => {
+                            e.target.style.display = 'none'
+                            e.target.parentElement.innerHTML = `
+                              <div class="w-full h-full flex items-center justify-center text-white text-2xl font-black rounded-xl">
+                                ${profile.nome.charAt(0).toUpperCase()}
+                              </div>
+                            `
+                          }}
+                        />
+                      ) : (
+                        <span className="text-white text-2xl font-black">
+                          {profile.nome.charAt(0).toUpperCase()}
+                        </span>
+                      )}
+                    </div>
+                    <div className="flex-1 min-w-0">
+                      <h3 className="text-lg font-black text-gray-900 dark:text-white mb-1 truncate">
+                        {profile.nome}
+                      </h3>
+                      <p className="text-sm text-gray-600 dark:text-gray-400 font-semibold mb-2 truncate">
+                        {profile.cargo}
+                      </p>
+                      <div className="flex items-center gap-2 mb-2">
+                        <svg className="w-4 h-4 text-indigo-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                        </svg>
+                        <span className="text-xs text-gray-500 dark:text-gray-400 truncate">
+                          {profile.localizacao}
+                        </span>
+                      </div>
+                      <span className="inline-block px-3 py-1 bg-gradient-to-r from-indigo-500 to-slate-600 text-white rounded-full text-xs font-bold">
+                        {profile.area}
+                      </span>
+                    </div>
+                  </div>
+                  
+                  <div className="pt-4 border-t border-gray-200 dark:border-gray-700 flex items-center justify-between">
+                    <div className="flex items-center gap-2">
+                      <svg className="w-4 h-4 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                      </svg>
+                      <span className="text-xs text-gray-600 dark:text-gray-400 font-semibold">
+                        Visualizado
+                      </span>
+                    </div>
+                    <span className="text-xs text-gray-500 dark:text-gray-500">
+                      {formatDate(profile.viewedAt)}
                     </span>
                   </div>
                 </div>

@@ -9,6 +9,7 @@ import DarkModeToggle from './components/DarkModeToggle'
 import LoginModal from './components/LoginModal'
 import SignupModal from './components/SignupModal'
 import ChatBot from './components/ChatBot'
+import Notifications from './components/Notifications'
 
 function AppContent() {
   const { user } = useAuth()
@@ -86,6 +87,9 @@ function AppContent() {
 
       {/* ChatBot de Suporte */}
       <ChatBot />
+
+      {/* Sistema de Notificações */}
+      <Notifications />
     </div>
   )
 }
