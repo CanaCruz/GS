@@ -11,6 +11,7 @@ const SearchBar = ({ searchTerm, onSearchChange }) => {
             value={searchTerm}
             onChange={(e) => onSearchChange(e.target.value)}
             className="w-full px-8 py-5 pl-16 pr-12 rounded-2xl border-2 border-gray-200 dark:border-gray-700 bg-white/90 dark:bg-gray-800/90 backdrop-blur-md text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-500 focus:outline-none focus:ring-4 focus:ring-indigo-500/20 focus:border-indigo-500 dark:focus:border-indigo-400 transition-all duration-300 shadow-lg hover:shadow-xl text-lg font-medium"
+            aria-label="Buscar profissionais por nome"
           />
           <div className="absolute left-6 top-1/2 transform -translate-y-1/2">
             <svg

@@ -38,11 +38,15 @@ const Card = ({ profile, onClick }) => {
           </div>
         )}
         
-        {/* Badge de área com glow */}
-        <div className="absolute top-4 right-4 z-20">
-          <span className="px-4 py-2 bg-white/95 dark:bg-gray-900/95 backdrop-blur-md text-gray-900 dark:text-white text-xs font-bold rounded-full shadow-xl border border-white/20 glow-blue">
+        {/* Badge de área com glow e tooltip */}
+        <div className="absolute top-4 right-4 z-20 group/badge">
+          <span className="px-4 py-2 bg-white/95 dark:bg-gray-900/95 backdrop-blur-md text-gray-900 dark:text-white text-xs font-bold rounded-full shadow-xl border border-white/20 glow-blue hover:scale-110 transition-transform duration-200 cursor-help">
             {profile.area}
           </span>
+          <div className="absolute right-0 top-full mt-2 px-3 py-2 bg-gray-900 dark:bg-gray-100 text-white dark:text-gray-900 text-xs font-semibold rounded-lg shadow-xl opacity-0 invisible group-hover/badge:opacity-100 group-hover/badge:visible transition-all duration-200 whitespace-nowrap z-30">
+            Área de atuação
+            <div className="absolute -top-1 right-4 w-2 h-2 bg-gray-900 dark:bg-gray-100 rotate-45"></div>
+          </div>
         </div>
       </div>
 
