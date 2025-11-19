@@ -14,14 +14,14 @@ const Footer = () => {
   return (
     <footer className="relative bg-gradient-to-br from-gray-900 via-gray-800 to-black dark:from-black dark:via-gray-900 dark:to-black text-gray-300 mt-32 border-t border-gray-800">
       {/* Efeito de brilho no topo */}
-      <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-blue-500 to-transparent"></div>
+      <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-indigo-500 to-transparent"></div>
       
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 lg:py-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-10 lg:gap-12">
           {/* Sobre */}
           <div>
             <div className="flex items-center gap-3 mb-6">
-              <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-blue-600 to-purple-600 flex items-center justify-center shadow-lg">
+              <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-indigo-600 to-slate-600 flex items-center justify-center shadow-lg">
                 <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                 </svg>
@@ -67,7 +67,7 @@ const Footer = () => {
                 <a
                   key={index}
                   href="#"
-                  className="w-12 h-12 rounded-xl bg-gray-800 hover:bg-gradient-to-br hover:from-blue-600 hover:to-purple-600 text-gray-400 hover:text-white flex items-center justify-center transition-all duration-300 hover:scale-110 hover:shadow-xl"
+                  className="w-12 h-12 rounded-xl bg-gray-800 hover:bg-gradient-to-br hover:from-indigo-600 hover:to-slate-600 text-gray-400 hover:text-white flex items-center justify-center transition-all duration-300 hover:scale-110 hover:shadow-xl"
                 >
                   <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
                     <path d={social.path} />
@@ -91,11 +91,11 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t border-gray-800 mt-12 pt-8 text-center">
-          <p className="text-sm text-gray-500">
-            &copy; 2025 <span className="font-black bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">Futuro do Trabalho</span>. Todos os direitos reservados.
-          </p>
-        </div>
+                    <div className="border-t border-gray-800 mt-8 sm:mt-12 pt-6 sm:pt-8 text-center">
+                      <p className="text-xs sm:text-sm text-gray-500 px-2">
+                        &copy; 2025 <span className="font-black bg-gradient-to-r from-indigo-400 to-slate-400 bg-clip-text text-transparent">Futuro do Trabalho</span>. Todos os direitos reservados.
+                      </p>
+                    </div>
       </div>
     </footer>
   )

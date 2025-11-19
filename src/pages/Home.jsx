@@ -78,32 +78,32 @@ const Home = () => {
   }
 
   return (
-    <div className="min-h-screen py-8 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
+    <div className="min-h-screen py-6 sm:py-8 px-3 sm:px-4 lg:px-8 relative overflow-hidden">
       {/* Background shapes decorativos */}
       <div className="fixed inset-0 -z-10 overflow-hidden pointer-events-none">
-        <div className="absolute top-0 left-1/4 w-96 h-96 bg-blue-500/10 dark:bg-blue-400/5 rounded-full blur-3xl animate-pulse-slow"></div>
-        <div className="absolute top-1/3 right-1/4 w-96 h-96 bg-purple-500/10 dark:bg-purple-400/5 rounded-full blur-3xl animate-pulse-slow" style={{ animationDelay: '1s' }}></div>
-        <div className="absolute bottom-0 left-1/2 w-96 h-96 bg-cyan-500/10 dark:bg-cyan-400/5 rounded-full blur-3xl animate-pulse-slow" style={{ animationDelay: '2s' }}></div>
+        <div className="absolute top-0 left-1/4 w-96 h-96 bg-indigo-500/10 dark:bg-indigo-400/5 rounded-full blur-3xl animate-pulse-slow"></div>
+        <div className="absolute top-1/3 right-1/4 w-96 h-96 bg-indigo-500/10 dark:bg-indigo-400/5 rounded-full blur-3xl animate-pulse-slow" style={{ animationDelay: '1s' }}></div>
+        <div className="absolute bottom-0 left-1/2 w-96 h-96 bg-slate-500/10 dark:bg-slate-400/5 rounded-full blur-3xl animate-pulse-slow" style={{ animationDelay: '2s' }}></div>
       </div>
 
       {/* Hero Section Moderna */}
       <div className="max-w-7xl mx-auto mb-20 text-center relative z-10 animate-fade-in">
-        <div className="inline-flex items-center gap-2 mb-6 px-4 py-2 bg-gradient-to-r from-blue-500/10 via-purple-500/10 to-cyan-500/10 dark:from-blue-500/20 dark:via-purple-500/20 dark:to-cyan-500/20 backdrop-blur-glass rounded-full border border-blue-500/20 dark:border-blue-400/20">
-          <div className="w-2 h-2 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-full animate-pulse"></div>
-          <span className="text-sm font-semibold bg-gradient-to-r from-blue-600 via-purple-600 to-cyan-500 bg-clip-text text-transparent">
+        <div className="inline-flex items-center gap-2 mb-6 px-4 py-2 bg-gradient-to-r from-indigo-500/10 via-indigo-500/10 to-slate-500/10 dark:from-indigo-500/20 dark:via-indigo-500/20 dark:to-slate-500/20 backdrop-blur-glass rounded-full border border-indigo-500/20 dark:border-indigo-400/20">
+          <div className="w-2 h-2 bg-gradient-to-r from-indigo-500 to-slate-500 rounded-full animate-pulse"></div>
+          <span className="text-sm font-semibold bg-gradient-to-r from-indigo-600 via-indigo-500 to-slate-600 bg-clip-text text-transparent">
             Plataforma de Conexão Profissional
           </span>
         </div>
         
         <h1 className="text-6xl sm:text-7xl lg:text-8xl font-black mb-6 leading-tight">
-          <span className="bg-gradient-to-r from-blue-600 via-purple-600 via-cyan-500 to-blue-600 bg-clip-text text-transparent animate-gradient">
+          <span className="bg-gradient-to-r from-indigo-600 via-indigo-500 via-slate-600 to-indigo-600 bg-clip-text text-transparent animate-gradient">
             O Futuro do Trabalho
           </span>
         </h1>
         
         <p className="text-xl sm:text-2xl lg:text-3xl text-gray-700 dark:text-gray-300 max-w-4xl mx-auto leading-relaxed font-light mb-10">
           Conectando pessoas, competências e propósito
-          <span className="block mt-2 text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 font-medium">
+          <span className="block mt-2 text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-slate-600 font-medium">
             por meio da tecnologia
           </span>
         </p>
@@ -117,13 +117,13 @@ const Home = () => {
               </svg>
             </div>
             <div className="text-left">
-              <p className="text-2xl font-bold text-gray-900 dark:text-white">{profiles.length}+</p>
+              <p className="text-2xl font-bold text-gray-900 dark:text-white">1000+</p>
               <p className="text-xs text-gray-600 dark:text-gray-400 font-medium">Profissionais</p>
             </div>
           </div>
 
           <div className="group flex items-center gap-3 px-6 py-3 bg-white/80 dark:bg-gray-800/80 backdrop-blur-md rounded-2xl border border-gray-200/50 dark:border-gray-700/50 shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300">
-            <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-blue-400 to-blue-600 flex items-center justify-center shadow-lg">
+            <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-indigo-400 to-indigo-600 flex items-center justify-center shadow-lg">
               <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
                 <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z" />
                 <path fillRule="evenodd" d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 000 2h.01a1 1 0 100-2H7zm3 0a1 1 0 000 2h3a1 1 0 100-2h-3zm-3 4a1 1 0 100 2h.01a1 1 0 100-2H7zm3 0a1 1 0 100 2h3a1 1 0 100-2h-3z" clipRule="evenodd" />
@@ -136,7 +136,7 @@ const Home = () => {
           </div>
 
           <div className="group flex items-center gap-3 px-6 py-3 bg-white/80 dark:bg-gray-800/80 backdrop-blur-md rounded-2xl border border-gray-200/50 dark:border-gray-700/50 shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300">
-            <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-purple-400 to-pink-600 flex items-center justify-center shadow-lg">
+            <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-slate-400 to-slate-600 flex items-center justify-center shadow-lg">
               <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clipRule="evenodd" />
               </svg>
@@ -165,7 +165,7 @@ const Home = () => {
           <div className="flex items-center justify-between">
             <div>
               <p className="text-sm text-gray-500 dark:text-gray-400 font-medium mb-1">Resultados encontrados</p>
-              <p className="text-3xl font-black bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+              <p className="text-3xl font-black bg-gradient-to-r from-indigo-600 to-slate-600 bg-clip-text text-transparent">
                 {filteredProfiles.length} {filteredProfiles.length === 1 ? 'profissional' : 'profissionais'}
               </p>
             </div>
@@ -199,7 +199,7 @@ const Home = () => {
           </div>
         ) : (
           <div className="text-center py-20">
-            <div className="w-24 h-24 mx-auto mb-6 rounded-full bg-gradient-to-br from-blue-500/20 to-purple-500/20 flex items-center justify-center">
+            <div className="w-24 h-24 mx-auto mb-6 rounded-full bg-gradient-to-br from-indigo-500/20 to-slate-500/20 flex items-center justify-center">
               <svg className="w-12 h-12 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
@@ -216,18 +216,18 @@ const Home = () => {
 
       {/* Seção Sobre */}
       <section id="sobre" className="max-w-7xl mx-auto mt-32 mb-20 scroll-mt-20">
-        <div className="bg-gradient-to-br from-blue-50/80 via-purple-50/80 to-cyan-50/80 dark:from-gray-800/80 dark:via-gray-800/80 dark:to-gray-800/80 backdrop-blur-md rounded-3xl p-10 md:p-16 border border-blue-200/50 dark:border-gray-700/50 shadow-2xl">
+        <div className="bg-gradient-to-br from-indigo-50/80 via-indigo-50/80 to-slate-50/80 dark:from-gray-800/80 dark:via-gray-800/80 dark:to-gray-800/80 backdrop-blur-md rounded-3xl p-10 md:p-16 border border-indigo-200/50 dark:border-gray-700/50 shadow-2xl">
           <div className="text-center mb-12">
-            <h2 className="text-5xl font-black mb-6 bg-gradient-to-r from-blue-600 via-purple-600 to-cyan-500 bg-clip-text text-transparent">
+            <h2 className="text-5xl font-black mb-6 bg-gradient-to-r from-indigo-600 via-indigo-500 to-slate-600 bg-clip-text text-transparent">
               Sobre a Plataforma
             </h2>
-            <div className="w-32 h-1.5 bg-gradient-to-r from-blue-600 via-purple-600 to-cyan-500 mx-auto rounded-full"></div>
+            <div className="w-32 h-1.5 bg-gradient-to-r from-indigo-600 via-indigo-500 to-slate-600 mx-auto rounded-full"></div>
           </div>
           
           <div className="grid md:grid-cols-2 gap-10 mt-12">
             <div className="space-y-4">
               <h3 className="text-3xl font-bold text-gray-900 dark:text-white mb-6 flex items-center gap-3">
-                <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-blue-500 to-cyan-500 flex items-center justify-center shadow-lg">
+                <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-indigo-500 to-indigo-600 flex items-center justify-center shadow-lg">
                   <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                   </svg>
@@ -243,7 +243,7 @@ const Home = () => {
             
             <div className="space-y-4">
               <h3 className="text-3xl font-bold text-gray-900 dark:text-white mb-6 flex items-center gap-3">
-                <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center shadow-lg">
+                <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-slate-500 to-slate-600 flex items-center justify-center shadow-lg">
                   <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
@@ -276,20 +276,20 @@ const Home = () => {
       <section id="contato" className="max-w-7xl mx-auto mt-20 mb-20 scroll-mt-20">
         <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-md rounded-3xl p-10 md:p-16 border border-gray-200/50 dark:border-gray-700/50 shadow-2xl">
           <div className="text-center mb-12">
-            <h2 className="text-5xl font-black mb-6 bg-gradient-to-r from-blue-600 via-purple-600 to-cyan-500 bg-clip-text text-transparent">
+            <h2 className="text-5xl font-black mb-6 bg-gradient-to-r from-indigo-600 via-indigo-500 to-slate-600 bg-clip-text text-transparent">
               Entre em Contato
             </h2>
             <p className="text-xl text-gray-600 dark:text-gray-400 mb-4">
               Estamos aqui para ajudar você a encontrar o profissional ideal
             </p>
-            <div className="w-32 h-1.5 bg-gradient-to-r from-blue-600 via-purple-600 to-cyan-500 mx-auto rounded-full"></div>
+            <div className="w-32 h-1.5 bg-gradient-to-r from-indigo-600 via-indigo-500 to-slate-600 mx-auto rounded-full"></div>
           </div>
 
           <div className="grid md:grid-cols-3 gap-6 mt-12">
             {[
-              { icon: 'email', title: 'Email', content: 'contato@futurodotrabalho.com', color: 'from-blue-500 to-blue-600', link: 'mailto:contato@futurodotrabalho.com' },
-              { icon: 'phone', title: 'Telefone', content: '(11) 9999-9999', color: 'from-purple-500 to-pink-600', link: 'tel:+5511999999999' },
-              { icon: 'location', title: 'Localização', content: 'São Paulo, SP\nBrasil', color: 'from-cyan-500 to-blue-600', link: null }
+              { icon: 'email', title: 'Email', content: 'contato@futurodotrabalho.com', color: 'from-indigo-500 to-indigo-600', link: 'mailto:contato@futurodotrabalho.com' },
+              { icon: 'phone', title: 'Telefone', content: '(11) 9999-9999', color: 'from-indigo-500 to-slate-600', link: 'tel:+5511999999999' },
+              { icon: 'location', title: 'Localização', content: 'São Paulo, SP\nBrasil', color: 'from-slate-500 to-indigo-600', link: null }
             ].map((item, index) => (
               <div key={index} className="text-center p-8 bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 rounded-2xl border border-gray-200 dark:border-gray-700 hover:shadow-xl hover:scale-105 transition-all duration-300">
                 <div className={`w-20 h-20 rounded-2xl bg-gradient-to-br ${item.color} flex items-center justify-center mx-auto mb-6 shadow-xl`}>
@@ -312,7 +312,7 @@ const Home = () => {
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-3">{item.title}</h3>
                 {item.link ? (
-                  <a href={item.link} className="text-blue-600 dark:text-blue-400 hover:underline font-medium">
+                  <a href={item.link} className="text-indigo-600 dark:text-indigo-400 hover:underline font-medium">
                     {item.content}
                   </a>
                 ) : (
@@ -333,21 +333,21 @@ const Home = () => {
                 <input
                   type="text"
                   placeholder="Seu nome"
-                  className="w-full px-6 py-4 rounded-2xl border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-900 dark:text-white focus:outline-none focus:ring-4 focus:ring-blue-500/20 focus:border-blue-500 transition-all"
+                  className="w-full px-6 py-4 rounded-2xl border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-900 dark:text-white focus:outline-none focus:ring-4 focus:ring-indigo-500/20 focus:border-indigo-500 transition-all"
                 />
                 <input
                   type="email"
                   placeholder="Seu email"
-                  className="w-full px-6 py-4 rounded-2xl border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-900 dark:text-white focus:outline-none focus:ring-4 focus:ring-blue-500/20 focus:border-blue-500 transition-all"
+                  className="w-full px-6 py-4 rounded-2xl border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-900 dark:text-white focus:outline-none focus:ring-4 focus:ring-indigo-500/20 focus:border-indigo-500 transition-all"
                 />
                 <textarea
                   placeholder="Sua mensagem"
                   rows="5"
-                  className="w-full px-6 py-4 rounded-2xl border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-900 dark:text-white focus:outline-none focus:ring-4 focus:ring-blue-500/20 focus:border-blue-500 resize-none transition-all"
+                  className="w-full px-6 py-4 rounded-2xl border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-900 dark:text-white focus:outline-none focus:ring-4 focus:ring-indigo-500/20 focus:border-indigo-500 resize-none transition-all"
                 ></textarea>
                 <button
                   type="submit"
-                  className="w-full px-8 py-4 bg-gradient-to-r from-blue-600 via-purple-600 to-cyan-500 text-white font-bold rounded-2xl hover:shadow-2xl hover:scale-[1.02] transition-all duration-300 text-lg"
+                  className="w-full px-8 py-4 bg-gradient-to-r from-indigo-600 via-indigo-500 to-slate-600 text-white font-bold rounded-2xl hover:shadow-2xl hover:scale-[1.02] transition-all duration-300 text-lg"
                 >
                   Enviar Mensagem
                 </button>

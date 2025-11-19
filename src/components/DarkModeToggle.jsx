@@ -1,16 +1,16 @@
 // Componente Dark Mode Toggle moderno
 const DarkModeToggle = ({ darkMode, toggleDarkMode }) => {
   return (
-    <div className="fixed top-24 right-6 z-50">
+    <div className="fixed top-16 sm:top-20 md:top-24 right-2 sm:right-4 md:right-6 z-50">
       <button
         onClick={toggleDarkMode}
-        className="relative p-4 rounded-2xl bg-white/90 dark:bg-gray-800/90 backdrop-blur-md shadow-2xl hover:shadow-3xl transition-all duration-300 border-2 border-gray-200/50 dark:border-gray-700/50 hover:border-blue-500/50 dark:hover:border-blue-400/50 group hover:scale-110"
+        className="relative p-2 sm:p-3 md:p-4 rounded-lg sm:rounded-xl md:rounded-2xl bg-white/90 dark:bg-gray-800/90 backdrop-blur-md shadow-xl sm:shadow-2xl hover:shadow-2xl sm:hover:shadow-3xl transition-all duration-300 border-2 border-gray-200/50 dark:border-gray-700/50 hover:border-indigo-500/50 dark:hover:border-indigo-400/50 group hover:scale-110"
         aria-label="Alternar modo escuro"
       >
-        <div className="absolute inset-0 bg-gradient-to-r from-blue-500/0 via-purple-500/0 to-cyan-500/0 group-hover:from-blue-500/20 group-hover:via-purple-500/20 group-hover:to-cyan-500/20 rounded-2xl transition-all duration-300"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-indigo-500/0 via-indigo-500/0 to-slate-500/0 group-hover:from-indigo-500/20 group-hover:via-indigo-500/20 group-hover:to-slate-500/20 rounded-lg sm:rounded-xl md:rounded-2xl transition-all duration-300"></div>
         {darkMode ? (
           <svg
-            className="relative w-6 h-6 text-yellow-500 group-hover:rotate-180 transition-transform duration-700"
+            className="relative w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 text-yellow-500 group-hover:rotate-180 transition-transform duration-700"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -24,7 +24,7 @@ const DarkModeToggle = ({ darkMode, toggleDarkMode }) => {
           </svg>
         ) : (
           <svg
-            className="relative w-6 h-6 text-gray-700 dark:text-gray-300 group-hover:rotate-12 transition-transform duration-700"
+            className="relative w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 text-gray-700 dark:text-gray-300 group-hover:rotate-12 transition-transform duration-700"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"

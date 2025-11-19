@@ -11,11 +11,13 @@ export default {
         sans: ['Inter', 'Poppins', 'system-ui', 'sans-serif'],
       },
       colors: {
-        futuristic: {
-          blue: '#3b82f6',
-          purple: '#9333ea',
-          cyan: '#06b6d4',
-          pink: '#ec4899',
+        elegant: {
+          indigo: '#6366f1',
+          indigoDark: '#4f46e5',
+          indigoLight: '#818cf8',
+          slate: '#64748b',
+          slateDark: '#475569',
+          slateLight: '#94a3b8',
         },
       },
       animation: {

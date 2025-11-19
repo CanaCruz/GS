@@ -8,15 +8,15 @@ const Modal = ({ profile, isOpen, onClose }) => {
       onClick={onClose}
     >
       <div
-        className="bg-white/95 dark:bg-gray-900/95 backdrop-blur-xl rounded-3xl shadow-2xl max-w-6xl w-full max-h-[95vh] overflow-y-auto border border-gray-200/50 dark:border-gray-700/50 animate-scale-in"
+        className="bg-white/95 dark:bg-gray-900/95 backdrop-blur-xl rounded-xl sm:rounded-2xl md:rounded-3xl shadow-2xl max-w-6xl w-full mx-2 sm:mx-4 max-h-[95vh] sm:max-h-[90vh] overflow-y-auto border border-gray-200/50 dark:border-gray-700/50 animate-scale-in"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Header Premium do Modal */}
-        <div className="sticky top-0 bg-gradient-to-r from-blue-600/10 via-purple-600/10 to-cyan-500/10 dark:from-blue-900/20 dark:via-purple-900/20 dark:to-cyan-900/20 backdrop-blur-xl border-b border-gray-200/50 dark:border-gray-700/50 p-8 flex justify-between items-start z-10">
+        <div className="sticky top-0 bg-gradient-to-r from-indigo-600/10 via-indigo-500/10 to-slate-600/10 dark:from-indigo-900/20 dark:via-indigo-900/20 dark:to-slate-900/20 backdrop-blur-xl border-b border-gray-200/50 dark:border-gray-700/50 p-8 flex justify-between items-start z-10">
           <div className="flex items-start gap-6 flex-1">
             {/* Foto maior com glow */}
             <div className="relative">
-              <div className="w-36 h-36 rounded-3xl bg-gradient-to-br from-blue-500 via-purple-600 to-cyan-500 flex items-center justify-center flex-shrink-0 shadow-2xl glow-blue">
+              <div className="w-36 h-36 rounded-3xl bg-gradient-to-br from-indigo-500 via-indigo-600 to-slate-600 flex items-center justify-center flex-shrink-0 shadow-2xl glow-blue">
                 {profile.foto ? (
                   <img
                     src={profile.foto}
@@ -41,7 +41,7 @@ const Modal = ({ profile, isOpen, onClose }) => {
             
             {/* Informações básicas */}
             <div className="flex-1">
-              <h2 className="text-4xl font-black text-gray-900 dark:text-white mb-3 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+              <h2 className="text-4xl font-black text-gray-900 dark:text-white mb-3 bg-gradient-to-r from-indigo-600 to-slate-600 bg-clip-text text-transparent">
                 {profile.nome}
               </h2>
               <p className="text-xl text-gray-700 dark:text-gray-300 mb-4 font-bold">
@@ -49,26 +49,26 @@ const Modal = ({ profile, isOpen, onClose }) => {
               </p>
               <div className="flex flex-wrap items-center gap-4 mb-6">
                 <p className="text-sm text-gray-600 dark:text-gray-400 flex items-center gap-2 font-semibold">
-                  <svg className="w-5 h-5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-5 h-5 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                   </svg>
                   {profile.localizacao}
                 </p>
-                <span className="px-4 py-2 bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-full text-sm font-bold shadow-lg">
+                <span className="px-4 py-2 bg-gradient-to-r from-indigo-500 to-slate-600 text-white rounded-full text-sm font-bold shadow-lg">
                   {profile.area}
                 </span>
               </div>
               
               {/* Botões de ação */}
               <div className="flex gap-4">
-                <button className="px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-bold rounded-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center gap-2">
+                <button className="px-6 py-3 bg-gradient-to-r from-indigo-600 to-slate-600 text-white font-bold rounded-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center gap-2">
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
                   </svg>
                   Recomendar
                 </button>
-                <button className="px-6 py-3 bg-gradient-to-r from-purple-600 to-cyan-500 text-white font-bold rounded-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center gap-2">
+                <button className="px-6 py-3 bg-gradient-to-r from-indigo-600 to-slate-600 text-white font-bold rounded-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center gap-2">
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
                   </svg>
@@ -94,9 +94,9 @@ const Modal = ({ profile, isOpen, onClose }) => {
         <div className="p-10 space-y-10">
           {/* Resumo */}
           {profile.resumo && (
-            <div className="bg-gradient-to-br from-blue-50/80 to-purple-50/80 dark:from-gray-800/80 dark:to-gray-900/80 backdrop-blur-sm rounded-3xl p-8 border border-blue-200/50 dark:border-gray-700/50 shadow-xl">
+            <div className="bg-gradient-to-br from-indigo-50/80 to-slate-50/80 dark:from-gray-800/80 dark:to-gray-900/80 backdrop-blur-sm rounded-3xl p-8 border border-indigo-200/50 dark:border-gray-700/50 shadow-xl">
               <h3 className="text-2xl font-black text-gray-900 dark:text-white mb-4 flex items-center gap-3">
-                <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-blue-500 to-cyan-500 flex items-center justify-center shadow-lg">
+                <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-indigo-500 to-slate-600 flex items-center justify-center shadow-lg">
                   <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                   </svg>
@@ -110,7 +110,7 @@ const Modal = ({ profile, isOpen, onClose }) => {
           {/* Habilidades Técnicas */}
           <div>
             <h3 className="text-2xl font-black text-gray-900 dark:text-white mb-6 flex items-center gap-3">
-              <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center shadow-lg">
+              <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-indigo-500 to-slate-600 flex items-center justify-center shadow-lg">
                 <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
                 </svg>
@@ -121,7 +121,7 @@ const Modal = ({ profile, isOpen, onClose }) => {
               {profile.habilidadesTecnicas.map((skill, index) => (
                 <span
                   key={index}
-                  className="px-5 py-2.5 bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/40 dark:to-purple-900/40 text-blue-700 dark:text-blue-300 rounded-xl text-sm font-bold border-2 border-blue-200 dark:border-blue-800 shadow-md hover:shadow-lg hover:scale-105 transition-all duration-200"
+                  className="px-5 py-2.5 bg-gradient-to-r from-indigo-50 to-slate-50 dark:from-indigo-900/40 dark:to-slate-900/40 text-indigo-700 dark:text-indigo-300 rounded-xl text-sm font-bold border-2 border-indigo-200 dark:border-indigo-800 shadow-md hover:shadow-lg hover:scale-105 transition-all duration-200"
                 >
                   {skill}
                 </span>
@@ -157,7 +157,7 @@ const Modal = ({ profile, isOpen, onClose }) => {
           {profile.experiencias && profile.experiencias.length > 0 && (
             <div>
               <h3 className="text-2xl font-black text-gray-900 dark:text-white mb-6 flex items-center gap-3">
-                <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-purple-500 to-pink-600 flex items-center justify-center shadow-lg">
+                <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-slate-500 to-slate-600 flex items-center justify-center shadow-lg">
                   <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                   </svg>
@@ -168,12 +168,12 @@ const Modal = ({ profile, isOpen, onClose }) => {
                 {profile.experiencias.map((exp, index) => (
                   <div
                     key={index}
-                    className="bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-800 dark:to-gray-900 rounded-2xl p-6 border-l-4 border-purple-500 hover:shadow-xl transition-all duration-300"
+                    className="bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-800 dark:to-gray-900 rounded-2xl p-6 border-l-4 border-indigo-500 hover:shadow-xl transition-all duration-300"
                   >
                     <h4 className="font-black text-xl text-gray-900 dark:text-white mb-2">
                       {exp.cargo}
                     </h4>
-                    <p className="text-base font-bold text-purple-600 dark:text-purple-400 mb-3">
+                    <p className="text-base font-bold text-indigo-600 dark:text-indigo-400 mb-3">
                       {exp.empresa}
                     </p>
                     <p className="text-sm text-gray-600 dark:text-gray-400 mb-3 flex items-center gap-2 font-semibold">
@@ -197,7 +197,7 @@ const Modal = ({ profile, isOpen, onClose }) => {
           {profile.formacao && profile.formacao.length > 0 && (
             <div>
               <h3 className="text-2xl font-black text-gray-900 dark:text-white mb-6 flex items-center gap-3">
-                <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center shadow-lg">
+                <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-indigo-500 to-slate-600 flex items-center justify-center shadow-lg">
                   <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M12 14l9-5-9-5-9 5 9 5z" />
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
@@ -208,7 +208,7 @@ const Modal = ({ profile, isOpen, onClose }) => {
               </h3>
               <div className="space-y-4">
                 {profile.formacao.map((form, index) => (
-                  <div key={index} className="bg-gradient-to-r from-indigo-50 to-purple-50 dark:from-indigo-900/30 dark:to-purple-900/30 p-5 rounded-2xl border-2 border-indigo-200 dark:border-indigo-800 shadow-md hover:shadow-lg transition-all duration-200">
+                  <div key={index} className="bg-gradient-to-r from-indigo-50 to-slate-50 dark:from-indigo-900/30 dark:to-slate-900/30 p-5 rounded-2xl border-2 border-indigo-200 dark:border-indigo-800 shadow-md hover:shadow-lg transition-all duration-200">
                     <h4 className="font-black text-lg text-gray-900 dark:text-white mb-2">
                       {form.curso}
                     </h4>
@@ -248,7 +248,7 @@ const Modal = ({ profile, isOpen, onClose }) => {
                         href={proj.link}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex items-center gap-2 px-5 py-2.5 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-bold rounded-xl hover:shadow-xl hover:scale-105 transition-all duration-300"
+                        className="inline-flex items-center gap-2 px-5 py-2.5 bg-gradient-to-r from-indigo-600 to-slate-600 text-white font-bold rounded-xl hover:shadow-xl hover:scale-105 transition-all duration-300"
                       >
                         Ver projeto
                         <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -290,7 +290,7 @@ const Modal = ({ profile, isOpen, onClose }) => {
           {profile.idiomas && profile.idiomas.length > 0 && (
             <div>
               <h3 className="text-2xl font-black text-gray-900 dark:text-white mb-6 flex items-center gap-3">
-                <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-cyan-500 to-blue-600 flex items-center justify-center shadow-lg">
+                <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-slate-500 to-indigo-600 flex items-center justify-center shadow-lg">
                   <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129" />
                   </svg>
@@ -301,9 +301,9 @@ const Modal = ({ profile, isOpen, onClose }) => {
                 {profile.idiomas.map((idioma, index) => (
                   <span
                     key={index}
-                    className="px-5 py-2.5 bg-gradient-to-r from-cyan-50 to-blue-50 dark:from-cyan-900/40 dark:to-blue-900/40 text-cyan-700 dark:text-cyan-300 rounded-xl text-sm font-bold border-2 border-cyan-200 dark:border-cyan-800 shadow-md"
+                    className="px-5 py-2.5 bg-gradient-to-r from-slate-50 to-indigo-50 dark:from-slate-900/40 dark:to-indigo-900/40 text-slate-700 dark:text-slate-300 rounded-xl text-sm font-bold border-2 border-slate-200 dark:border-slate-800 shadow-md"
                   >
-                    {idioma.idioma} <span className="text-cyan-600 dark:text-cyan-400">•</span> {idioma.nivel}
+                    {idioma.idioma} <span className="text-slate-600 dark:text-slate-400">•</span> {idioma.nivel}
                   </span>
                 ))}
               </div>

@@ -3,18 +3,18 @@ const SearchBar = ({ searchTerm, onSearchChange }) => {
   return (
     <div className="w-full max-w-4xl mx-auto mb-8">
       <div className="relative group">
-        <div className="absolute inset-0 bg-gradient-to-r from-blue-600 via-purple-600 to-cyan-500 rounded-2xl blur-xl opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-indigo-600 via-indigo-500 to-slate-600 rounded-2xl blur-xl opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
         <div className="relative">
           <input
             type="text"
             placeholder="Buscar profissionais por nome..."
             value={searchTerm}
             onChange={(e) => onSearchChange(e.target.value)}
-            className="w-full px-8 py-5 pl-16 pr-12 rounded-2xl border-2 border-gray-200 dark:border-gray-700 bg-white/90 dark:bg-gray-800/90 backdrop-blur-md text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-500 focus:outline-none focus:ring-4 focus:ring-blue-500/20 focus:border-blue-500 dark:focus:border-blue-400 transition-all duration-300 shadow-lg hover:shadow-xl text-lg font-medium"
+            className="w-full px-8 py-5 pl-16 pr-12 rounded-2xl border-2 border-gray-200 dark:border-gray-700 bg-white/90 dark:bg-gray-800/90 backdrop-blur-md text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-500 focus:outline-none focus:ring-4 focus:ring-indigo-500/20 focus:border-indigo-500 dark:focus:border-indigo-400 transition-all duration-300 shadow-lg hover:shadow-xl text-lg font-medium"
           />
           <div className="absolute left-6 top-1/2 transform -translate-y-1/2">
             <svg
-              className="w-6 h-6 text-gray-400 group-hover:text-blue-500 transition-colors duration-300"
+              className="w-6 h-6 text-gray-400 group-hover:text-indigo-500 transition-colors duration-300"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
