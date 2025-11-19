@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import VagaCard from '../components/VagaCard'
 import VagaModal from '../components/VagaModal'
+import vagasData from '../data/vagas.json'
 
 const Vagas = () => {
   const [vagas, setVagas] = useState([])
@@ -17,15 +18,12 @@ const Vagas = () => {
   })
 
   useEffect(() => {
-    fetch('/vagas.json')
-      .then((response) => response.json())
-      .then((data) => {
-        setVagas(data)
-        setFilteredVagas(data)
-      })
-      .catch((error) => {
-        console.error('Erro ao carregar vagas:', error)
-      })
+    try {
+      setVagas(vagasData)
+      setFilteredVagas(vagasData)
+    } catch (error) {
+      console.error('Erro ao carregar vagas:', error)
+    }
   }, [])
 
   useEffect(() => {

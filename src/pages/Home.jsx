@@ -3,6 +3,7 @@ import Card from '../components/Card'
 import Modal from '../components/Modal'
 import SearchBar from '../components/SearchBar'
 import Filters from '../components/Filters'
+import profilesData from '../data/profiles.json'
 
 // Página principal que gerencia o estado da aplicação
 // Carrega os dados do JSON, implementa busca e filtros, e gerencia a modal
@@ -20,15 +21,12 @@ const Home = () => {
 
   // Carrega os dados do arquivo JSON quando o componente monta
   useEffect(() => {
-    fetch('/profiles.json')
-      .then((response) => response.json())
-      .then((data) => {
-        setProfiles(data)
-        setFilteredProfiles(data)
-      })
-      .catch((error) => {
-        console.error('Erro ao carregar perfis:', error)
-      })
+    try {
+      setProfiles(profilesData)
+      setFilteredProfiles(profilesData)
+    } catch (error) {
+      console.error('Erro ao carregar perfis:', error)
+    }
   }, [])
 
   // Aplica os filtros e busca sempre que searchTerm ou filters mudarem
